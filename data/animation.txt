@@ -1,0 +1,245 @@
+74
+
+main_attack_left
+main_attack_left1 100000000 main_attack_left2 100000000 main_attack_left3 100000000 main_attack_left4 150000000 main_attack_left5 150000000 main_attack_left6 150000000 
+
+main_attack_right
+main_attack_right1 100000000 main_attack_right2 100000000 main_attack_right3 100000000 main_attack_right4 150000000 main_attack_right5 150000000 main_attack_right6 150000000 
+
+main_attack_down
+main_attack_down1 100000000 main_attack_down2 100000000 main_attack_down3 100000000 main_attack_down4 150000000 main_attack_down5 150000000 main_attack_down6 150000000 
+
+main_attack_up
+main_attack_up1 100000000 main_attack_up2 100000000 main_attack_up3 100000000 main_attack_up4 150000000 main_attack_up5 150000000 main_attack_up6 150000000 
+
+
+
+
+
+
+gob_attack_left
+gob_attack_left1 100000000 gob_attack_left2 100000000 gob_attack_left3 100000000 gob_attack_left4 150000000 gob_attack_left5 150000000 gob_attack_left6 150000000 gob_attack_left7 150000000 gob_attack_left8 150000000 gob_attack_left9 150000000 gob_attack_left10 150000000 gob_attack_left11 150000000
+
+gob_attack_right
+gob_attack_right1 100000000 gob_attack_right2 100000000 gob_attack_right3 100000000 gob_attack_right4 150000000 gob_attack_right5 150000000 gob_attack_right6 150000000 gob_attack_right7 150000000 gob_attack_right8 150000000 gob_attack_right9 150000000 gob_attack_right10 150000000 gob_attack_right11 150000000
+
+gob_attack_down
+gob_attack_down1 100000000 gob_attack_down2 100000000 gob_attack_down3 100000000 gob_attack_down4 150000000 gob_attack_down5 150000000 gob_attack_down6 150000000 gob_attack_down7 150000000 gob_attack_down8 150000000 gob_attack_down9 150000000 gob_attack_down10 150000000 gob_attack_down11 150000000
+
+gob_attack_up
+gob_attack_up1 100000000 gob_attack_up2 100000000 gob_attack_up3 100000000 gob_attack_up4 150000000 gob_attack_up5 150000000 gob_attack_up6 150000000 gob_attack_up7 150000000 gob_attack_up8 150000000 gob_attack_up9 150000000 gob_attack_up10 150000000 gob_attack_up11 150000000
+
+
+gob_death_left
+gob_death_left1 200000000 gob_death_left2 200000000 gob_death_left3 200000000 gob_death_left4 150000000 gob_death_left5 150000000 gob_death_left6 150000000 gob_death_left7 150000000 gob_death_left8 150000000
+
+gob_death_right
+gob_death_right1 200000000 gob_death_right2 200000000 gob_death_right3 200000000 gob_death_right4 150000000 gob_death_right5 150000000 gob_death_right6 150000000 gob_death_right7 150000000 gob_death_right8 150000000
+
+gob_death_down
+gob_death_down1 200000000 gob_death_down2 200000000 gob_death_down3 200000000 gob_death_down4 150000000 gob_death_down5 150000000 gob_death_down6 150000000 gob_death_down7 150000000 gob_death_down8 150000000
+
+gob_death_up
+gob_death_up1 200000000 gob_death_up2 200000000 gob_death_up3 200000000 gob_death_up4 150000000 gob_death_up5 150000000 gob_death_up6 150000000 gob_death_up7 150000000 gob_death_up8 150000000
+
+
+gob_hurt_left
+gob_hurt_left1 200000000 gob_hurt_left2 200000000 gob_hurt_left3 200000000 gob_hurt_left4 150000000 
+
+gob_hurt_right
+gob_hurt_right1 200000000 gob_hurt_right2 200000000 gob_hurt_right3 200000000 gob_hurt_right4 150000000 
+
+gob_hurt_down
+gob_hurt_down1 200000000 gob_hurt_down2 200000000 gob_hurt_down3 200000000 gob_hurt_down4 150000000 
+
+gob_hurt_up
+gob_hurt_up1 200000000 gob_hurt_up2 200000000 gob_hurt_up3 200000000 gob_hurt_up4 150000000 
+
+
+
+gob_idle_up
+gob_idle_up1 100000000 gob_idle_up2 100000000 gob_idle_up3 100000000 gob_idle_up4 100000000 gob_idle_up5 100000000 gob_idle_up6 100000000 
+
+gob_idle_down
+gob_idle_down1 100000000 gob_idle_down2 100000000 gob_idle_down3 100000000 gob_idle_down4 100000000 gob_idle_down5 100000000 gob_idle_down6 100000000 
+
+gob_idle_left
+gob_idle_left1 100000000 gob_idle_left2 100000000 gob_idle_left3 100000000 gob_idle_left4 100000000 gob_idle_left5 100000000 gob_idle_left6 100000000 
+
+gob_idle_right
+gob_idle_right1 100000000 gob_idle_right2 100000000 gob_idle_right3 100000000 gob_idle_right4 100000000 gob_idle_right5 100000000 gob_idle_right6 100000000 
+
+
+
+
+gob_walk_right
+gob_walk_right1 150000000 gob_walk_right2 150000000 gob_walk_right3 150000000 gob_walk_right4 150000000 gob_walk_right5 150000000 gob_walk_right6 150000000 
+
+gob_walk_left
+gob_walk_left1 150000000 gob_walk_left2 150000000 gob_walk_left3 150000000 gob_walk_left4 150000000 gob_walk_left5 150000000 gob_walk_left6 150000000 
+
+gob_walk_up
+gob_walk_up1 150000000 gob_walk_up2 150000000 gob_walk_up3 150000000 gob_walk_up4 150000000 gob_walk_up5 150000000 gob_walk_up6 150000000 
+
+gob_walk_down
+gob_walk_down1 150000000 gob_walk_down2 150000000 gob_walk_down3 150000000 gob_walk_down4 150000000 gob_walk_down5 150000000 gob_walk_down6 150000000 
+
+
+beetle_down
+beetle_down 100000000 
+
+beetle_left
+beetle_left 100000000 
+
+beetle_right
+beetle_right 100000000 
+
+beetle_up
+beetle_up 100000000 
+
+eggsplosion
+eggsplosion1 100000000 eggsplosion2 100000000 eggsplosion3 100000000 eggsplosion4 100000000 eggsplosion5 100000000 eggsplosion6 100000000 eggsplosion7 100000000 eggsplosion8 100000000
+
+acid_splat
+acid_splat1 300000000 acid_splat2 300000000 acid_splat3 300000000 acid_splat4 300000000 acid_splat5 300000000 acid_splat6 300000000
+
+beetle_move_right
+beetle_move_right1 150000000 beetle_move_right2 150000000 beetle_move_right3 150000000 beetle_move_right4 150000000
+
+beetle_move_left
+beetle_move_left1 150000000 beetle_move_left2 150000000 beetle_move_left3 150000000 beetle_move_left4 150000000
+
+beetle_move_up
+beetle_move_up1 150000000 beetle_move_up2 150000000 beetle_move_up3 150000000 beetle_move_up4 150000000
+
+beetle_move_down
+beetle_move_down1 150000000 beetle_move_down2 150000000 beetle_move_down3 150000000 beetle_move_down4 150000000
+
+
+attack_left
+attack_left1 100000000 attack_left2 100000000 attack_left3 100000000 attack_left4 150000000 attack_left5 150000000 attack_left6 150000000
+
+attack_right
+attack_right1 100000000 attack_right2 100000000 attack_right3 100000000 attack_right4 150000000 attack_right5 150000000 attack_right6 150000000
+
+attack_down
+attack_down1 100000000 attack_down2 100000000 attack_down3 100000000 attack_down4 150000000 attack_down5 150000000 attack_down6 150000000
+
+attack_up
+attack_up1 100000000 attack_up2 100000000 attack_up3 100000000 attack_up4 150000000 attack_up5 150000000 attack_up6 150000000
+
+walk_right
+walk_right1 100000000 walk_right2 100000000 walk_right3 100000000 walk_right4 100000000 walk_right5 100000000 walk_right6 100000000 walk_right7 100000000 walk_right8 100000000
+
+
+walk_left
+walk_left1 100000000 walk_left2 100000000 walk_left3 100000000 walk_left4 100000000 walk_left5 100000000 walk_left6 100000000 walk_left7 100000000 walk_left8 100000000
+
+
+walk_up
+walk_up1 100000000 walk_up2 100000000 walk_up3 100000000 walk_up4 100000000 walk_up5 100000000 walk_up6 100000000 walk_up7 100000000 walk_up8 100000000
+
+walk_down
+walk_down1 100000000 walk_down2 100000000 walk_down3 100000000 walk_down4 100000000 walk_down5 100000000 walk_down6 100000000 walk_down7 100000000 walk_down8 100000000
+
+idle_up
+idle_up1 100000000 idle_up2 100000000 idle_up3 100000000 idle_up4 100000000 idle_up5 100000000 
+
+idle_down
+idle_down1 100000000 idle_down2 100000000 idle_down3 100000000 idle_down4 100000000 idle_down5 100000000 
+
+idle_left
+idle_left1 100000000 idle_left2 100000000 idle_left3 100000000 idle_left4 100000000 idle_left5 100000000 
+
+idle_right
+idle_right1 100000000 idle_right2 100000000 idle_right3 100000000 idle_right4 100000000 idle_right5 100000000 
+
+death_up
+death_up1 150000000 death_up2 150000000 death_up3 150000000 death_up4 150000000 death_up5 150000000 
+
+death_down
+death_down1 150000000 death_down2 150000000 death_down3 150000000 death_down4 150000000 death_down5 150000000 
+
+death_left
+death_left1 150000000 death_left2 150000000 death_left3 150000000 death_left4 150000000 death_left5 150000000 
+
+death_right
+death_right1 150000000 death_right2 150000000 death_right3 150000000 death_right4 150000000 death_right5 150000000 
+
+hurt_up
+hurt_up1 150000000 hurt_up2 150000000 hurt_up3 150000000 hurt_up4 150000000
+
+hurt_down
+hurt_down1 150000000 hurt_down2 150000000 hurt_down3 150000000 hurt_down4 150000000
+
+hurt_left
+hurt_left1 150000000 hurt_left2 150000000 hurt_left3 150000000 hurt_left4 150000000
+
+hurt_right
+hurt_right1 150000000 hurt_right2 150000000 hurt_right3 150000000 hurt_right4 150000000
+
+ske_attack_left
+ske_attack_left1 100000000 ske_attack_left2 100000000 ske_attack_left3 100000000 ske_attack_left4 150000000 ske_attack_left5 150000000 ske_attack_left6 150000000 ske_attack_left7 150000000 ske_attack_left8 150000000
+
+ske_attack_right
+ske_attack_right1 100000000 ske_attack_right2 100000000 ske_attack_right3 100000000 ske_attack_right4 150000000 ske_attack_right5 150000000 ske_attack_right6 150000000 ske_attack_right7 150000000 ske_attack_right8 150000000
+
+ske_attack_down
+ske_attack_down1 100000000 ske_attack_down2 100000000 ske_attack_down3 100000000 ske_attack_down4 150000000 ske_attack_down5 150000000 ske_attack_down6 150000000 ske_attack_down7 150000000 ske_attack_down8 150000000
+
+ske_attack_up
+ske_attack_up1 100000000 ske_attack_up2 100000000 ske_attack_up3 100000000 ske_attack_up4 150000000 ske_attack_up5 150000000 ske_attack_up6 150000000 ske_attack_up7 150000000 ske_attack_up8 150000000
+
+
+ske_idle_up
+ske_idle_up1 100000000 ske_idle_up2 100000000 ske_idle_up3 100000000 ske_idle_up4 100000000 ske_idle_up5 100000000 ske_idle_up6 100000000 
+
+ske_idle_down
+ske_idle_down1 100000000 ske_idle_down2 100000000 ske_idle_down3 100000000 ske_idle_down4 100000000 ske_idle_down5 100000000 ske_idle_down6 100000000 
+
+ske_idle_left
+ske_idle_left1 100000000 ske_idle_left2 100000000 ske_idle_left3 100000000 ske_idle_left4 100000000 ske_idle_left5 100000000 ske_idle_left6 100000000 
+
+ske_idle_right
+ske_idle_right1 100000000 ske_idle_right2 100000000 ske_idle_right3 100000000 ske_idle_right4 100000000 ske_idle_right5 100000000 ske_idle_right6 100000000 
+
+ske_hurt_left
+ske_hurt_left1 200000000 ske_hurt_left2 200000000 ske_hurt_left3 200000000 ske_hurt_left4 150000000 
+
+ske_hurt_right
+ske_hurt_right1 200000000 ske_hurt_right2 200000000 ske_hurt_right3 200000000 ske_hurt_right4 150000000 
+
+ske_hurt_down
+ske_hurt_down1 200000000 ske_hurt_down2 200000000 ske_hurt_down3 200000000 ske_hurt_down4 150000000 
+
+ske_hurt_up
+ske_hurt_up1 200000000 ske_hurt_up2 200000000 ske_hurt_up3 200000000 ske_hurt_up4 150000000 
+
+
+ske_death_left
+ske_death_left1 200000000 ske_death_left2 200000000 ske_death_left3 200000000 ske_death_left4 150000000 ske_death_left5 150000000 ske_death_left6 150000000 ske_death_left7 150000000 ske_death_left8 150000000
+
+ske_death_right
+ske_death_right1 200000000 ske_death_right2 200000000 ske_death_right3 200000000 ske_death_right4 150000000 ske_death_right5 150000000 ske_death_right6 150000000 ske_death_right7 150000000 ske_death_right8 150000000
+
+ske_death_down
+ske_death_down1 200000000 ske_death_down2 200000000 ske_death_down3 200000000 ske_death_down4 150000000 ske_death_down5 150000000 ske_death_down6 150000000 ske_death_down7 150000000 ske_death_down8 150000000
+
+ske_death_up
+ske_death_up1 200000000 ske_death_up2 200000000 ske_death_up3 200000000 ske_death_up4 150000000 ske_death_up5 150000000 ske_death_up6 150000000 ske_death_up7 150000000 ske_death_up8 150000000
+
+ske_walk_right
+ske_walk_right1 150000000 ske_walk_right2 150000000 ske_walk_right3 150000000 ske_walk_right4 150000000 ske_walk_right5 150000000 ske_walk_right6 150000000 
+
+ske_walk_left
+ske_walk_left1 150000000 ske_walk_left2 150000000 ske_walk_left3 150000000 ske_walk_left4 150000000 ske_walk_left5 150000000 ske_walk_left6 150000000 
+
+ske_walk_up
+ske_walk_up1 150000000 ske_walk_up2 150000000 ske_walk_up3 150000000 ske_walk_up4 150000000 ske_walk_up5 150000000 ske_walk_up6 150000000 
+
+ske_walk_down
+ske_walk_down1 150000000 ske_walk_down2 150000000 ske_walk_down3 150000000 ske_walk_down4 150000000 ske_walk_down5 150000000 ske_walk_down6 150000000 
+
+
+
+

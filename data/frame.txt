@@ -1,0 +1,3254 @@
+438
+
+main_attack_right1
+image data/attack_right2.png
+x 0
+y 0
+w 48
+h 48
+
+main_attack_right2
+image data/attack_right2.png
+x 48
+y 0
+w 48
+h 48
+
+
+main_attack_right3
+image data/attack_right2.png
+x 96
+y 0
+w 48
+h 48
+
+
+main_attack_right4
+image data/attack_right2.png
+x 144
+y 0
+w 48
+h 48
+
+
+main_attack_right5
+image data/attack_right2.png
+x 192
+y 0
+w 48
+h 48
+
+
+main_attack_right6
+image data/attack_right2.png
+x 240
+y 0
+w 48
+h 48
+
+
+
+
+
+
+main_attack_left1
+image data/attack_left2.png
+x 0
+y 0
+w 48
+h 48
+
+main_attack_left2
+image data/attack_left2.png
+x 48
+y 0
+w 48
+h 48
+
+
+main_attack_left3
+image data/attack_left2.png
+x 96
+y 0
+w 48
+h 48
+
+
+main_attack_left4
+image data/attack_left2.png
+x 144
+y 0
+w 48
+h 48
+
+
+main_attack_left5
+image data/attack_left2.png
+x 192
+y 0
+w 48
+h 48
+
+
+main_attack_left6
+image data/attack_left2.png
+x 240
+y 0
+w 48
+h 48
+
+
+
+
+main_attack_up1
+image data/attack_up2.png
+x 0
+y 0
+w 48
+h 48
+
+main_attack_up2
+image data/attack_up2.png
+x 48
+y 0
+w 48
+h 48
+
+
+main_attack_up3
+image data/attack_up2.png
+x 96
+y 0
+w 48
+h 48
+
+
+main_attack_up4
+image data/attack_up2.png
+x 144
+y 0
+w 48
+h 48
+
+
+main_attack_up5
+image data/attack_up2.png
+x 192
+y 0
+w 48
+h 48
+
+
+main_attack_up6
+image data/attack_up2.png
+x 240
+y 0
+w 48
+h 48
+
+
+
+main_attack_down1
+image data/attack_down2.png
+x 0
+y 0
+w 48
+h 48
+
+main_attack_down2
+image data/attack_down2.png
+x 48
+y 0
+w 48
+h 48
+
+
+main_attack_down3
+image data/attack_down2.png
+x 96
+y 0
+w 48
+h 48
+
+
+main_attack_down4
+image data/attack_down2.png
+x 144
+y 0
+w 48
+h 48
+
+
+main_attack_down5
+image data/attack_down2.png
+x 192
+y 0
+w 48
+h 48
+
+
+main_attack_down6
+image data/attack_down2.png
+x 240
+y 0
+w 48
+h 48
+
+
+
+
+
+
+gob_attack_right1
+image data/GoblinRightAttack.png
+x 0
+y 0
+w 48
+h 48
+
+gob_attack_right2
+image data/GoblinRightAttack.png
+x 48
+y 0
+w 48
+h 48
+
+
+gob_attack_right3
+image data/GoblinRightAttack.png
+x 96
+y 0
+w 48
+h 48
+
+
+gob_attack_right4
+image data/GoblinRightAttack.png
+x 144
+y 0
+w 48
+h 48
+
+
+gob_attack_right5
+image data/GoblinRightAttack.png
+x 192
+y 0
+w 48
+h 48
+
+
+gob_attack_right6
+image data/GoblinRightAttack.png
+x 240
+y 0
+w 48
+h 48
+
+
+gob_attack_right7
+image data/GoblinRightAttack.png
+x 288
+y 0
+w 48
+h 48
+
+gob_attack_right8
+image data/GoblinRightAttack.png
+x 336
+y 0
+w 48
+h 48
+
+gob_attack_right9
+image data/GoblinRightAttack.png
+x 384
+y 0
+w 48
+h 48
+
+
+gob_attack_right10
+image data/GoblinRightAttack.png
+x 432
+y 0
+w 48
+h 48
+
+gob_attack_right11
+image data/GoblinRightAttack.png
+x 480
+y 0
+w 48
+h 48
+
+
+
+
+gob_attack_left1
+image data/GoblinLeftAttack.png
+x 0
+y 0
+w 48
+h 48
+
+gob_attack_left2
+image data/GoblinLeftAttack.png
+x 48
+y 0
+w 48
+h 48
+
+
+gob_attack_left3
+image data/GoblinLeftAttack.png
+x 96
+y 0
+w 48
+h 48
+
+
+gob_attack_left4
+image data/GoblinLeftAttack.png
+x 144
+y 0
+w 48
+h 48
+
+
+gob_attack_left5
+image data/GoblinLeftAttack.png
+x 192
+y 0
+w 48
+h 48
+
+
+gob_attack_left6
+image data/GoblinLeftAttack.png
+x 240
+y 0
+w 48
+h 48
+
+
+gob_attack_left7
+image data/GoblinLeftAttack.png
+x 288
+y 0
+w 48
+h 48
+
+gob_attack_left8
+image data/GoblinLeftAttack.png
+x 336
+y 0
+w 48
+h 48
+
+
+gob_attack_left9
+image data/GoblinLeftAttack.png
+x 384
+y 0
+w 48
+h 48
+
+
+gob_attack_left10
+image data/GoblinLeftAttack.png
+x 432
+y 0
+w 48
+h 48
+
+gob_attack_left11
+image data/GoblinLeftAttack.png
+x 480
+y 0
+w 48
+h 48
+
+
+gob_attack_up1
+image data/GoblinUpAttack.png
+x 0
+y 0
+w 48
+h 48
+
+gob_attack_up2
+image data/GoblinUpAttack.png
+x 48
+y 0
+w 48
+h 48
+
+
+gob_attack_up3
+image data/GoblinUpAttack.png
+x 96
+y 0
+w 48
+h 48
+
+
+gob_attack_up4
+image data/GoblinUpAttack.png
+x 144
+y 0
+w 48
+h 48
+
+
+gob_attack_up5
+image data/GoblinUpAttack.png
+x 192
+y 0
+w 48
+h 48
+
+
+gob_attack_up6
+image data/GoblinUpAttack.png
+x 240
+y 0
+w 48
+h 48
+
+
+gob_attack_up7
+image data/GoblinUpAttack.png
+x 288
+y 0
+w 48
+h 48
+
+
+gob_attack_up8
+image data/GoblinUpAttack.png
+x 336
+y 0
+w 48
+h 48
+
+gob_attack_up9
+image data/GoblinUpAttack.png
+x 384
+y 0
+w 48
+h 48
+
+
+gob_attack_up10
+image data/GoblinUpAttack.png
+x 432
+y 0
+w 48
+h 48
+
+gob_attack_up11
+image data/GoblinUpAttack.png
+x 480
+y 0
+w 48
+h 48
+
+
+gob_attack_down1
+image data/GoblinDownAttack.png
+x 0
+y 0
+w 48
+h 48
+
+gob_attack_down2
+image data/GoblinDownAttack.png
+x 48
+y 0
+w 48
+h 48
+
+
+gob_attack_down3
+image data/GoblinDownAttack.png
+x 96
+y 0
+w 48
+h 48
+
+
+gob_attack_down4
+image data/GoblinDownAttack.png
+x 144
+y 0
+w 48
+h 48
+
+
+gob_attack_down5
+image data/GoblinDownAttack.png
+x 192
+y 0
+w 48
+h 48
+
+
+gob_attack_down6
+image data/GoblinDownAttack.png
+x 240
+y 0
+w 48
+h 48
+
+gob_attack_down7
+image data/GoblinDownAttack.png
+x 288
+y 0
+w 48
+h 48
+
+gob_attack_down8
+image data/GoblinDownAttack.png
+x 336
+y 0
+w 48
+h 48
+
+gob_attack_down9
+image data/GoblinDownAttack.png
+x 384
+y 0
+w 48
+h 48
+
+
+gob_attack_down10
+image data/GoblinDownAttack.png
+x 432
+y 0
+w 48
+h 48
+
+gob_attack_down11
+image data/GoblinDownAttack.png
+x 480
+y 0
+w 48
+h 48
+
+
+
+
+gob_death_right1
+image data/GoblinRightDeath.png
+x 0
+y 0
+w 48
+h 48
+
+gob_death_right2
+image data/GoblinRightDeath.png
+x 48
+y 0
+w 48
+h 48
+
+
+gob_death_right3
+image data/GoblinRightDeath.png
+x 96
+y 0
+w 48
+h 48
+
+
+gob_death_right4
+image data/GoblinRightDeath.png
+x 144
+y 0
+w 48
+h 48
+
+
+gob_death_right5
+image data/GoblinRightDeath.png
+x 192
+y 0
+w 48
+h 48
+
+
+gob_death_right6
+image data/GoblinRightDeath.png
+x 240
+y 0
+w 48
+h 48
+
+
+gob_death_right7
+image data/GoblinRightDeath.png
+x 288
+y 0
+w 48
+h 48
+
+gob_death_right8
+image data/GoblinRightDeath.png
+x 336
+y 0
+w 48
+h 48
+
+gob_death_left1
+image data/GoblinLeftDeath.png
+x 0
+y 0
+w 48
+h 48
+
+gob_death_left2
+image data/GoblinLeftDeath.png
+x 48
+y 0
+w 48
+h 48
+
+
+gob_death_left3
+image data/GoblinLeftDeath.png
+x 96
+y 0
+w 48
+h 48
+
+
+gob_death_left4
+image data/GoblinLeftDeath.png
+x 144
+y 0
+w 48
+h 48
+
+
+gob_death_left5
+image data/GoblinLeftDeath.png
+x 192
+y 0
+w 48
+h 48
+
+
+gob_death_left6
+image data/GoblinLeftDeath.png
+x 240
+y 0
+w 48
+h 48
+
+
+gob_death_left7
+image data/GoblinLeftDeath.png
+x 288
+y 0
+w 48
+h 48
+
+gob_death_left8
+image data/GoblinLeftDeath.png
+x 336
+y 0
+w 48
+h 48
+
+gob_death_up1
+image data/GoblinUpDeath.png
+x 0
+y 0
+w 48
+h 48
+
+gob_death_up2
+image data/GoblinUpDeath.png
+x 48
+y 0
+w 48
+h 48
+
+
+gob_death_up3
+image data/GoblinUpDeath.png
+x 96
+y 0
+w 48
+h 48
+
+
+gob_death_up4
+image data/GoblinUpDeath.png
+x 144
+y 0
+w 48
+h 48
+
+
+gob_death_up5
+image data/GoblinUpDeath.png
+x 192
+y 0
+w 48
+h 48
+
+
+gob_death_up6
+image data/GoblinUpDeath.png
+x 240
+y 0
+w 48
+h 48
+
+
+gob_death_up7
+image data/GoblinUpDeath.png
+x 288
+y 0
+w 48
+h 48
+
+
+gob_death_up8
+image data/GoblinUpDeath.png
+x 336
+y 0
+w 48
+h 48
+
+
+gob_death_down1
+image data/GoblinDownDeath.png
+x 0
+y 0
+w 48
+h 48
+
+gob_death_down2
+image data/GoblinDownDeath.png
+x 48
+y 0
+w 48
+h 48
+
+
+gob_death_down3
+image data/GoblinDownDeath.png
+x 96
+y 0
+w 48
+h 48
+
+
+gob_death_down4
+image data/GoblinDownDeath.png
+x 144
+y 0
+w 48
+h 48
+
+
+gob_death_down5
+image data/GoblinDownDeath.png
+x 192
+y 0
+w 48
+h 48
+
+
+gob_death_down6
+image data/GoblinDownDeath.png
+x 240
+y 0
+w 48
+h 48
+
+gob_death_down7
+image data/GoblinDownDeath.png
+x 288
+y 0
+w 48
+h 48
+
+gob_death_down8
+image data/GoblinDownDeath.png
+x 336
+y 0
+w 48
+h 48
+
+gob_hurt_right1
+image data/GoblinRightHurt.png
+x 0
+y 0
+w 48
+h 48
+
+gob_hurt_right2
+image data/GoblinRightHurt.png
+x 48
+y 0
+w 48
+h 48
+
+gob_hurt_right3
+image data/GoblinRightHurt.png
+x 96
+y 0
+w 48
+h 48
+
+gob_hurt_right4
+image data/GoblinRightHurt.png
+x 144
+y 0
+w 48
+h 48
+
+
+gob_hurt_left1
+image data/GoblinLeftHurt.png
+x 0
+y 0
+w 48
+h 48
+
+gob_hurt_left2
+image data/GoblinLeftHurt.png
+x 48
+y 0
+w 48
+h 48
+
+gob_hurt_left3
+image data/GoblinLeftHurt.png
+x 96
+y 0
+w 48
+h 48
+
+gob_hurt_left4
+image data/GoblinLeftHurt.png
+x 144
+y 0
+w 48
+h 48
+
+
+
+gob_hurt_up1
+image data/GoblinUpHurt.png
+x 0
+y 0
+w 48
+h 48
+
+gob_hurt_up2
+image data/GoblinUpHurt.png
+x 48
+y 0
+w 48
+h 48
+
+gob_hurt_up3
+image data/GoblinUpHurt.png
+x 96
+y 0
+w 48
+h 48
+
+gob_hurt_up4
+image data/GoblinUpHurt.png
+x 144
+y 0
+w 48
+h 48
+
+
+gob_hurt_down1
+image data/GoblinDownHurt.png
+x 0
+y 0
+w 48
+h 48
+
+gob_hurt_down2
+image data/GoblinDownHurt.png
+x 48
+y 0
+w 48
+h 48
+
+gob_hurt_down3
+image data/GoblinDownHurt.png
+x 96
+y 0
+w 48
+h 48
+
+gob_hurt_down4
+image data/GoblinDownHurt.png
+x 144
+y 0
+w 48
+h 48
+
+
+gob_idle_right1
+image data/GoblinRightIdle.png
+x 0
+y 0
+w 48
+h 48
+
+gob_idle_right2
+image data/GoblinRightIdle.png
+x 48
+y 0
+w 48
+h 48
+
+gob_idle_right3
+image data/GoblinRightIdle.png
+x 96
+y 0
+w 48
+h 48
+
+gob_idle_right4
+image data/GoblinRightIdle.png
+x 144
+y 0
+w 48
+h 48
+
+gob_idle_right5
+image data/GoblinRightIdle.png
+x 192
+y 0
+w 48
+h 48
+
+gob_idle_right6
+image data/GoblinRightIdle.png
+x 240
+y 0
+w 48
+h 48
+
+
+gob_idle_left1
+image data/GoblinLeftIdle.png
+x 0
+y 0
+w 48
+h 48
+
+gob_idle_left2
+image data/GoblinLeftIdle.png
+x 48
+y 0
+w 48
+h 48
+
+gob_idle_left3
+image data/GoblinLeftIdle.png
+x 96
+y 0
+w 48
+h 48
+
+gob_idle_left4
+image data/GoblinLeftIdle.png
+x 144
+y 0
+w 48
+h 48
+
+gob_idle_left5
+image data/GoblinLeftIdle.png
+x 192
+y 0
+w 48
+h 48
+
+gob_idle_left6
+image data/GoblinLeftIdle.png
+x 240
+y 0
+w 48
+h 48
+
+
+gob_idle_up1
+image data/GoblinUpIdle.png
+x 0
+y 0
+w 48
+h 48
+
+gob_idle_up2
+image data/GoblinUpIdle.png
+x 48
+y 0
+w 48
+h 48
+
+gob_idle_up3
+image data/GoblinUpIdle.png
+x 96
+y 0
+w 48
+h 48
+
+gob_idle_up4
+image data/GoblinUpIdle.png
+x 144
+y 0
+w 48
+h 48
+
+gob_idle_up5
+image data/GoblinUpIdle.png
+x 192
+y 0
+w 48
+h 48
+
+gob_idle_up6
+image data/GoblinUpIdle.png
+x 240
+y 0
+w 48
+h 48
+
+
+gob_idle_down1
+image data/GoblinDownIdle.png
+x 0
+y 0
+w 48
+h 48
+
+gob_idle_down2
+image data/GoblinDownIdle.png
+x 48
+y 0
+w 48
+h 48
+
+gob_idle_down3
+image data/GoblinDownIdle.png
+x 96
+y 0
+w 48
+h 48
+
+gob_idle_down4
+image data/GoblinDownIdle.png
+x 144
+y 0
+w 48
+h 48
+
+gob_idle_down5
+image data/GoblinDownIdle.png
+x 192
+y 0
+w 48
+h 48
+
+gob_idle_down6
+image data/GoblinDownIdle.png
+x 240
+y 0
+w 48
+h 48
+
+gob_walk_right1
+image data/GoblinRightRun.png
+x 0
+y 0
+w 48
+h 48
+
+gob_walk_right2
+image data/GoblinRightRun.png
+x 48
+y 0
+w 48
+h 48
+
+gob_walk_right3
+image data/GoblinRightRun.png
+x 96
+y 0
+w 48
+h 48
+
+gob_walk_right4
+image data/GoblinRightRun.png
+x 144
+y 0
+w 48
+h 48
+
+gob_walk_right5
+image data/GoblinRightRun.png
+x 192
+y 0
+w 48
+h 48
+
+gob_walk_right6
+image data/GoblinRightRun.png
+x 240
+y 0
+w 48
+h 48
+
+
+
+gob_walk_left1
+image data/GoblinLeftRun.png
+x 0
+y 0
+w 48
+h 48
+
+gob_walk_left2
+image data/GoblinLeftRun.png
+x 48
+y 0
+w 48
+h 48
+
+gob_walk_left3
+image data/GoblinLeftRun.png
+x 96
+y 0
+w 48
+h 48
+
+gob_walk_left4
+image data/GoblinLeftRun.png
+x 144
+y 0
+w 48
+h 48
+
+gob_walk_left5
+image data/GoblinLeftRun.png
+x 192
+y 0
+w 48
+h 48
+
+gob_walk_left6
+image data/GoblinLeftRun.png
+x 240
+y 0
+w 48
+h 48
+
+
+gob_walk_up1
+image data/GoblinUpRun.png
+x 0
+y 0
+w 48
+h 48
+
+gob_walk_up2
+image data/GoblinUpRun.png
+x 48
+y 0
+w 48
+h 48
+
+gob_walk_up3
+image data/GoblinUpRun.png
+x 96
+y 0
+w 48
+h 48
+
+gob_walk_up4
+image data/GoblinUpRun.png
+x 144
+y 0
+w 48
+h 48
+
+gob_walk_up5
+image data/GoblinUpRun.png
+x 192
+y 0
+w 48
+h 48
+
+gob_walk_up6
+image data/GoblinUpRun.png
+x 240
+y 0
+w 48
+h 48
+
+
+gob_walk_down1
+image data/GoblinDownRun.png
+x 0
+y 0
+w 48
+h 48
+
+gob_walk_down2
+image data/GoblinDownRun.png
+x 48
+y 0
+w 48
+h 48
+
+gob_walk_down3
+image data/GoblinDownRun.png
+x 96
+y 0
+w 48
+h 48
+
+gob_walk_down4
+image data/GoblinDownRun.png
+x 144
+y 0
+w 48
+h 48
+
+gob_walk_down5
+image data/GoblinDownRun.png
+x 192
+y 0
+w 48
+h 48
+
+gob_walk_down6
+image data/GoblinDownRun.png
+x 240
+y 0
+w 48
+h 48
+
+
+
+beetle_down
+image data/Beetle.png
+x 0
+y 0
+w 32
+h 32
+
+beetle_left
+image data/Beetle.png
+x 32
+y 0
+w 32
+h 32
+
+beetle_right
+image data/Beetle.png
+x 0
+y 32
+w 32
+h 32
+
+beetle_up
+image data/Beetle.png
+x 32
+y 32
+w 32
+h 32
+
+ske_walk_right1
+image data/RightWalk.png
+x 0
+y 0
+w 48
+h 48
+
+ske_walk_right2
+image data/RightWalk.png
+x 48
+y 0
+w 48
+h 48
+
+ske_walk_right3
+image data/RightWalk.png
+x 96
+y 0
+w 48
+h 48
+
+ske_walk_right4
+image data/RightWalk.png
+x 144
+y 0
+w 48
+h 48
+
+ske_walk_right5
+image data/RightWalk.png
+x 192
+y 0
+w 48
+h 48
+
+ske_walk_right6
+image data/RightWalk.png
+x 240
+y 0
+w 48
+h 48
+
+
+
+ske_walk_left1
+image data/LeftWalk.png
+x 0
+y 0
+w 48
+h 48
+
+ske_walk_left2
+image data/LeftWalk.png
+x 48
+y 0
+w 48
+h 48
+
+ske_walk_left3
+image data/LeftWalk.png
+x 96
+y 0
+w 48
+h 48
+
+ske_walk_left4
+image data/LeftWalk.png
+x 144
+y 0
+w 48
+h 48
+
+ske_walk_left5
+image data/LeftWalk.png
+x 192
+y 0
+w 48
+h 48
+
+ske_walk_left6
+image data/LeftWalk.png
+x 240
+y 0
+w 48
+h 48
+
+
+ske_walk_up1
+image data/UpWalk.png
+x 0
+y 0
+w 48
+h 48
+
+ske_walk_up2
+image data/UpWalk.png
+x 48
+y 0
+w 48
+h 48
+
+ske_walk_up3
+image data/UpWalk.png
+x 96
+y 0
+w 48
+h 48
+
+ske_walk_up4
+image data/UpWalk.png
+x 144
+y 0
+w 48
+h 48
+
+ske_walk_up5
+image data/UpWalk.png
+x 192
+y 0
+w 48
+h 48
+
+ske_walk_up6
+image data/UpWalk.png
+x 240
+y 0
+w 48
+h 48
+
+
+ske_walk_down1
+image data/DownWalk.png
+x 0
+y 0
+w 48
+h 48
+
+ske_walk_down2
+image data/DownWalk.png
+x 48
+y 0
+w 48
+h 48
+
+ske_walk_down3
+image data/DownWalk.png
+x 96
+y 0
+w 48
+h 48
+
+ske_walk_down4
+image data/DownWalk.png
+x 144
+y 0
+w 48
+h 48
+
+ske_walk_down5
+image data/DownWalk.png
+x 192
+y 0
+w 48
+h 48
+
+ske_walk_down6
+image data/DownWalk.png
+x 240
+y 0
+w 48
+h 48
+
+acid_splat1
+image data/AcidSplat.png
+x 0
+y 0
+w 64
+h 64
+
+acid_splat2
+image data/AcidSplat.png
+x 64
+y 0
+w 64
+h 64
+
+acid_splat3
+image data/AcidSplat.png
+x 128
+y 0
+w 64
+h 64
+
+acid_splat4
+image data/AcidSplat.png
+x 192
+y 0
+w 64
+h 64
+
+acid_splat5
+image data/AcidSplat.png
+x 256
+y 0
+w 64
+h 64
+
+acid_splat6
+image data/AcidSplat.png
+x 320
+y 0
+w 64
+h 64
+
+eggsplosion1
+image data/Eggsplosion.png
+x 0
+y 0 
+w 32
+h 32
+
+eggsplosion2
+image data/Eggsplosion.png
+x 32
+y 0 
+w 32
+h 32
+
+eggsplosion3
+image data/Eggsplosion.png
+x 64
+y 0 
+w 32
+h 32
+
+eggsplosion4
+image data/Eggsplosion.png
+x 96
+y 0 
+w 32
+h 32
+
+eggsplosion5
+image data/Eggsplosion.png
+x 0
+y 32
+w 32
+h 32
+
+eggsplosion6
+image data/Eggsplosion.png
+x 32
+y 32
+w 32
+h 32
+
+eggsplosion7
+image data/Eggsplosion.png
+x 64
+y 32
+w 32
+h 32
+
+eggsplosion8
+image data/Eggsplosion.png
+x 96
+y 32
+w 32
+h 32
+
+beetle_move_down1
+image data/BeetleMove.png
+x 0
+y 0
+w 32
+y 32
+
+beetle_move_down2
+image data/BeetleMove.png
+x 32
+y 0
+w 32
+y 32
+
+beetle_move_down3
+image data/BeetleMove.png
+x 64
+y 0
+w 32
+y 32
+
+beetle_move_down4
+image data/BeetleMove.png
+x 96
+y 0
+w 32
+y 32
+
+
+beetle_move_left1
+image data/BeetleMove.png
+x 0
+y 32
+w 32
+y 32
+
+beetle_move_left2
+image data/BeetleMove.png
+x 32
+y 32
+w 32
+y 32
+
+beetle_move_left3
+image data/BeetleMove.png
+x 64
+y 32
+w 32
+y 32
+
+beetle_move_left4
+image data/BeetleMove.png
+x 96
+y 32
+w 32
+y 32
+
+beetle_move_right1
+image data/BeetleMove.png
+x 0
+y 64
+w 32
+y 32
+
+beetle_move_right2
+image data/BeetleMove.png
+x 32
+y 64
+w 32
+y 32
+
+beetle_move_right3
+image data/BeetleMove.png
+x 64
+y 64
+w 32
+y 32
+
+beetle_move_right4
+image data/BeetleMove.png
+x 96
+y 64
+w 32
+y 32
+
+beetle_move_up1
+image data/BeetleMove.png
+x 0
+y 96
+w 32
+y 32
+
+beetle_move_up2
+image data/BeetleMove.png
+x 32
+y 96
+w 32
+y 32
+
+beetle_move_up3
+image data/BeetleMove.png
+x 64
+y 96
+w 32
+y 32
+
+beetle_move_up4
+image data/BeetleMove.png
+x 96
+y 96
+w 32
+y 32
+
+
+death_right1
+image data/right_death.png
+x 0
+y 0
+w 48
+h 48
+
+death_right2
+image data/right_death.png
+x 48
+y 0
+w 48
+h 48
+
+death_right3
+image data/right_death.png
+x 96
+y 0
+w 48
+h 48
+
+death_right4
+image data/right_death.png
+x 144
+y 0
+w 48
+h 48
+
+death_right5
+image data/right_death.png
+x 192
+y 0
+w 48
+h 48
+
+death_left1
+image data/left_death.png
+x 0
+y 0
+w 48
+h 48
+
+death_left2
+image data/left_death.png
+x 48
+y 0
+w 48
+h 48
+
+death_left3
+image data/left_death.png
+x 96
+y 0
+w 48
+h 48
+
+death_left4
+image data/left_death.png
+x 144
+y 0
+w 48
+h 48
+
+death_left5
+image data/left_death.png
+x 192
+y 0
+w 48
+h 48
+
+death_up1
+image data/up_death.png
+x 0
+y 0
+w 48
+h 48
+
+death_up2
+image data/up_death.png
+x 48
+y 0
+w 48
+h 48
+
+death_up3
+image data/up_death.png
+x 96
+y 0
+w 48
+h 48
+
+death_up4
+image data/up_death.png
+x 144
+y 0
+w 48
+h 48
+
+death_up5
+image data/up_death.png
+x 192
+y 0
+w 48
+h 48
+
+death_down1
+image data/down_death.png
+x 0
+y 0
+w 48
+h 48
+
+death_down2
+image data/down_death.png
+x 48
+y 0
+w 48
+h 48
+
+death_down3
+image data/down_death.png
+x 96
+y 0
+w 48
+h 48
+
+death_down4
+image data/down_death.png
+x 144
+y 0
+w 48
+h 48
+
+death_down5
+image data/down_death.png
+x 192
+y 0
+w 48
+h 48
+
+hurt_right1
+image data/right_hurt.png
+x 0
+y 0
+w 48
+h 48
+
+hurt_right2
+image data/right_hurt.png
+x 48
+y 0
+w 48
+h 48
+
+hurt_right3
+image data/right_hurt.png
+x 96
+y 0
+w 48
+h 48
+
+hurt_right4
+image data/right_hurt.png
+x 144
+y 0
+w 48
+h 48
+
+hurt_left1
+image data/left_hurt.png
+x 0
+y 0
+w 48
+h 48
+
+hurt_left2
+image data/left_hurt.png
+x 48
+y 0
+w 48
+h 48
+
+hurt_left3
+image data/left_hurt.png
+x 96
+y 0
+w 48
+h 48
+
+hurt_left4
+image data/left_hurt.png
+x 144
+y 0
+w 48
+h 48
+
+
+hurt_up1
+image data/up_hurt.png
+x 0
+y 0
+w 48
+h 48
+
+hurt_up2
+image data/up_hurt.png
+x 48
+y 0
+w 48
+h 48
+
+hurt_up3
+image data/up_hurt.png
+x 96
+y 0
+w 48
+h 48
+
+hurt_up4
+image data/up_hurt.png
+x 144
+y 0
+w 48
+h 48
+
+
+hurt_down1
+image data/down_hurt.png
+x 0
+y 0
+w 48
+h 48
+
+hurt_down2
+image data/down_hurt.png
+x 48
+y 0
+w 48
+h 48
+
+hurt_down3
+image data/down_hurt.png
+x 96
+y 0
+w 48
+h 48
+
+hurt_down4
+image data/down_hurt.png
+x 144
+y 0
+w 48
+h 48
+
+attack_right1
+image data/attack_right.png
+x 0
+y 0
+w 48
+h 48
+
+attack_right2
+image data/attack_right.png
+x 48
+y 0
+w 48
+h 48
+
+
+attack_right3
+image data/attack_right.png
+x 96
+y 0
+w 48
+h 48
+
+
+attack_right4
+image data/attack_right.png
+x 144
+y 0
+w 48
+h 48
+
+
+attack_right5
+image data/attack_right.png
+x 192
+y 0
+w 48
+h 48
+
+
+attack_right6
+image data/attack_right.png
+x 240
+y 0
+w 48
+h 48
+
+
+attack_left1
+image data/attack_left.png
+x 0
+y 0
+w 48
+h 48
+
+attack_left2
+image data/attack_left.png
+x 48
+y 0
+w 48
+h 48
+
+
+attack_left3
+image data/attack_left.png
+x 96
+y 0
+w 48
+h 48
+
+
+attack_left4
+image data/attack_left.png
+x 144
+y 0
+w 48
+h 48
+
+
+attack_left5
+image data/attack_left.png
+x 192
+y 0
+w 48
+h 48
+
+
+attack_left6
+image data/attack_left.png
+x 240
+y 0
+w 48
+h 48
+
+attack_up1
+image data/attack_up.png
+x 0
+y 0
+w 48
+h 48
+
+attack_up2
+image data/attack_up.png
+x 48
+y 0
+w 48
+h 48
+
+
+attack_up3
+image data/attack_up.png
+x 96
+y 0
+w 48
+h 48
+
+
+attack_up4
+image data/attack_up.png
+x 144
+y 0
+w 48
+h 48
+
+
+attack_up5
+image data/attack_up.png
+x 192
+y 0
+w 48
+h 48
+
+
+attack_up6
+image data/attack_up.png
+x 240
+y 0
+w 48
+h 48
+
+
+attack_down1
+image data/attack_down.png
+x 0
+y 0
+w 48
+h 48
+
+attack_down2
+image data/attack_down.png
+x 48
+y 0
+w 48
+h 48
+
+
+attack_down3
+image data/attack_down.png
+x 96
+y 0
+w 48
+h 48
+
+
+attack_down4
+image data/attack_down.png
+x 144
+y 0
+w 48
+h 48
+
+
+attack_down5
+image data/attack_down.png
+x 192
+y 0
+w 48
+h 48
+
+
+attack_down6
+image data/attack_down.png
+x 240
+y 0
+w 48
+h 48
+
+walk_right1
+image data/walk_right.png
+x 0
+y 0
+w 48
+h 48
+
+walk_right2
+image data/walk_right.png
+x 48
+y 0
+w 48
+h 48
+
+walk_right3
+image data/walk_right.png
+x 96
+y 0
+w 48
+h 48
+
+walk_right4
+image data/walk_right.png
+x 144
+y 0
+w 48
+h 48
+
+walk_right5
+image data/walk_right.png
+x 192
+y 0
+w 48
+h 48
+
+walk_right6
+image data/walk_right.png
+x 240
+y 0
+w 48
+h 48
+
+walk_right7
+image data/walk_right.png
+x 288
+y 0
+w 48
+h 48
+
+walk_right8
+image data/walk_right.png
+x 336
+y 0
+w 48
+h 48
+
+walk_left1
+image data/walk_left.png
+x 0
+y 0
+w 48
+h 48
+
+walk_left2
+image data/walk_left.png
+x 48
+y 0
+w 48
+h 48
+
+walk_left3
+image data/walk_left.png
+x 96
+y 0
+w 48
+h 48
+
+walk_left4
+image data/walk_left.png
+x 144
+y 0
+w 48
+h 48
+
+walk_left5
+image data/walk_left.png
+x 192
+y 0
+w 48
+h 48
+
+walk_left6
+image data/walk_left.png
+x 240
+y 0
+w 48
+h 48
+
+walk_left7
+image data/walk_left.png
+x 288
+y 0
+w 48
+h 48
+
+walk_left8
+image data/walk_left.png
+x 336
+y 0
+w 48
+h 48
+
+
+walk_up1
+image data/walk_up.png
+x 0
+y 0
+w 48
+h 48
+
+walk_up2
+image data/walk_up.png
+x 48
+y 0
+w 48
+h 48
+
+walk_up3
+image data/walk_up.png
+x 96
+y 0
+w 48
+h 48
+
+walk_up4
+image data/walk_up.png
+x 144
+y 0
+w 48
+h 48
+
+walk_up5
+image data/walk_up.png
+x 192
+y 0
+w 48
+h 48
+
+walk_up6
+image data/walk_up.png
+x 240
+y 0
+w 48
+h 48
+
+walk_up7
+image data/walk_up.png
+x 288
+y 0
+w 48
+h 48
+
+walk_up8
+image data/walk_up.png
+x 336
+y 0
+w 48
+h 48
+
+
+walk_down1
+image data/walk_down.png
+x 0
+y 0
+w 48
+h 48
+
+walk_down2
+image data/walk_down.png
+x 48
+y 0
+w 48
+h 48
+
+walk_down3
+image data/walk_down.png
+x 96
+y 0
+w 48
+h 48
+
+walk_down4
+image data/walk_down.png
+x 144
+y 0
+w 48
+h 48
+
+walk_down5
+image data/walk_down.png
+x 192
+y 0
+w 48
+h 48
+
+walk_down6
+image data/walk_down.png
+x 240
+y 0
+w 48
+h 48
+
+walk_down7
+image data/walk_down.png
+x 288
+y 0
+w 48
+h 48
+
+walk_down8
+image data/walk_down.png
+x 336
+y 0
+w 48
+h 48
+
+idle_right1
+image data/idle_right.png
+x 0
+y 0
+w 48
+h 48
+
+idle_right2
+image data/idle_right.png
+x 48
+y 0
+w 48
+h 48
+
+idle_right3
+image data/idle_right.png
+x 96
+y 0
+w 48
+h 48
+
+idle_right4
+image data/idle_right.png
+x 144
+y 0
+w 48
+h 48
+
+idle_right5
+image data/idle_right.png
+x 192
+y 0
+w 48
+h 48
+
+idle_left1
+image data/idle_left.png
+x 0
+y 0
+w 48
+h 48
+
+idle_left2
+image data/idle_left.png
+x 48
+y 0
+w 48
+h 48
+
+idle_left3
+image data/idle_left.png
+x 96
+y 0
+w 48
+h 48
+
+idle_left4
+image data/idle_left.png
+x 144
+y 0
+w 48
+h 48
+
+idle_left5
+image data/idle_left.png
+x 192
+y 0
+w 48
+h 48
+
+idle_up1
+image data/idle_up.png
+x 0
+y 0
+w 48
+h 48
+
+idle_up2
+image data/idle_up.png
+x 48
+y 0
+w 48
+h 48
+
+idle_up3
+image data/idle_up.png
+x 96
+y 0
+w 48
+h 48
+
+idle_up4
+image data/idle_up.png
+x 144
+y 0
+w 48
+h 48
+
+idle_up5
+image data/idle_up.png
+x 192
+y 0
+w 48
+h 48
+
+idle_down1
+image data/idle_down.png
+x 0
+y 0
+w 48
+h 48
+
+idle_down2
+image data/idle_down.png
+x 48
+y 0
+w 48
+h 48
+
+idle_down3
+image data/idle_down.png
+x 96
+y 0
+w 48
+h 48
+
+idle_down4
+image data/idle_down.png
+x 144
+y 0
+w 48
+h 48
+
+idle_down5
+image data/idle_down.png
+x 192
+y 0
+w 48
+h 48
+
+ske_idle_right1
+image data/RightIdle.png
+x 0
+y 0
+w 48
+h 48
+
+ske_idle_right2
+image data/RightIdle.png
+x 48
+y 0
+w 48
+h 48
+
+ske_idle_right3
+image data/RightIdle.png
+x 96
+y 0
+w 48
+h 48
+
+ske_idle_right4
+image data/RightIdle.png
+x 144
+y 0
+w 48
+h 48
+
+ske_idle_right5
+image data/RightIdle.png
+x 192
+y 0
+w 48
+h 48
+
+ske_idle_right6
+image data/RightIdle.png
+x 240
+y 0
+w 48
+h 48
+
+
+ske_idle_left1
+image data/LeftIdle.png
+x 0
+y 0
+w 48
+h 48
+
+ske_idle_left2
+image data/LeftIdle.png
+x 48
+y 0
+w 48
+h 48
+
+ske_idle_left3
+image data/LeftIdle.png
+x 96
+y 0
+w 48
+h 48
+
+ske_idle_left4
+image data/LeftIdle.png
+x 144
+y 0
+w 48
+h 48
+
+ske_idle_left5
+image data/LeftIdle.png
+x 192
+y 0
+w 48
+h 48
+
+ske_idle_left6
+image data/LeftIdle.png
+x 240
+y 0
+w 48
+h 48
+
+
+ske_idle_up1
+image data/UpIdle.png
+x 0
+y 0
+w 48
+h 48
+
+ske_idle_up2
+image data/UpIdle.png
+x 48
+y 0
+w 48
+h 48
+
+ske_idle_up3
+image data/UpIdle.png
+x 96
+y 0
+w 48
+h 48
+
+ske_idle_up4
+image data/UpIdle.png
+x 144
+y 0
+w 48
+h 48
+
+ske_idle_up5
+image data/UpIdle.png
+x 192
+y 0
+w 48
+h 48
+
+ske_idle_up6
+image data/UpIdle.png
+x 240
+y 0
+w 48
+h 48
+
+
+ske_idle_down1
+image data/DownIdle.png
+x 0
+y 0
+w 48
+h 48
+
+ske_idle_down2
+image data/DownIdle.png
+x 48
+y 0
+w 48
+h 48
+
+ske_idle_down3
+image data/DownIdle.png
+x 96
+y 0
+w 48
+h 48
+
+ske_idle_down4
+image data/DownIdle.png
+x 144
+y 0
+w 48
+h 48
+
+ske_idle_down5
+image data/DownIdle.png
+x 192
+y 0
+w 48
+h 48
+
+ske_idle_down6
+image data/DownIdle.png
+x 240
+y 0
+w 48
+h 48
+
+ske_attack_right1
+image data/RightAttack.png
+x 0
+y 0
+w 48
+h 48
+
+ske_attack_right2
+image data/RightAttack.png
+x 48
+y 0
+w 48
+h 48
+
+
+ske_attack_right3
+image data/RightAttack.png
+x 96
+y 0
+w 48
+h 48
+
+
+ske_attack_right4
+image data/RightAttack.png
+x 144
+y 0
+w 48
+h 48
+
+
+ske_attack_right5
+image data/RightAttack.png
+x 192
+y 0
+w 48
+h 48
+
+
+ske_attack_right6
+image data/RightAttack.png
+x 240
+y 0
+w 48
+h 48
+
+
+ske_attack_right7
+image data/RightAttack.png
+x 288
+y 0
+w 48
+h 48
+
+ske_attack_right8
+image data/RightAttack.png
+x 336
+y 0
+w 48
+h 48
+
+ske_attack_left1
+image data/LeftAttack.png
+x 0
+y 0
+w 48
+h 48
+
+ske_attack_left2
+image data/LeftAttack.png
+x 48
+y 0
+w 48
+h 48
+
+
+ske_attack_left3
+image data/LeftAttack.png
+x 96
+y 0
+w 48
+h 48
+
+
+ske_attack_left4
+image data/LeftAttack.png
+x 144
+y 0
+w 48
+h 48
+
+
+ske_attack_left5
+image data/LeftAttack.png
+x 192
+y 0
+w 48
+h 48
+
+
+ske_attack_left6
+image data/LeftAttack.png
+x 240
+y 0
+w 48
+h 48
+
+
+ske_attack_left7
+image data/LeftAttack.png
+x 288
+y 0
+w 48
+h 48
+
+ske_attack_left8
+image data/LeftAttack.png
+x 336
+y 0
+w 48
+h 48
+
+ske_attack_up1
+image data/UpAttack.png
+x 0
+y 0
+w 48
+h 48
+
+ske_attack_up2
+image data/UpAttack.png
+x 48
+y 0
+w 48
+h 48
+
+
+ske_attack_up3
+image data/UpAttack.png
+x 96
+y 0
+w 48
+h 48
+
+
+ske_attack_up4
+image data/UpAttack.png
+x 144
+y 0
+w 48
+h 48
+
+
+ske_attack_up5
+image data/UpAttack.png
+x 192
+y 0
+w 48
+h 48
+
+
+ske_attack_up6
+image data/UpAttack.png
+x 240
+y 0
+w 48
+h 48
+
+
+ske_attack_up7
+image data/UpAttack.png
+x 288
+y 0
+w 48
+h 48
+
+
+ske_attack_up8
+image data/UpAttack.png
+x 336
+y 0
+w 48
+h 48
+
+
+ske_attack_down1
+image data/DownAttack.png
+x 0
+y 0
+w 48
+h 48
+
+ske_attack_down2
+image data/DownAttack.png
+x 48
+y 0
+w 48
+h 48
+
+
+ske_attack_down3
+image data/DownAttack.png
+x 96
+y 0
+w 48
+h 48
+
+
+ske_attack_down4
+image data/DownAttack.png
+x 144
+y 0
+w 48
+h 48
+
+
+ske_attack_down5
+image data/DownAttack.png
+x 192
+y 0
+w 48
+h 48
+
+
+ske_attack_down6
+image data/DownAttack.png
+x 240
+y 0
+w 48
+h 48
+
+ske_attack_down7
+image data/DownAttack.png
+x 288
+y 0
+w 48
+h 48
+
+ske_attack_down8
+image data/DownAttack.png
+x 336
+y 0
+w 48
+h 48
+
+ske_hurt_right1
+image data/RightHurt.png
+x 0
+y 0
+w 48
+h 48
+
+ske_hurt_right2
+image data/RightHurt.png
+x 48
+y 0
+w 48
+h 48
+
+ske_hurt_right3
+image data/RightHurt.png
+x 96
+y 0
+w 48
+h 48
+
+ske_hurt_right4
+image data/RightHurt.png
+x 144
+y 0
+w 48
+h 48
+
+
+ske_hurt_left1
+image data/LeftHurt.png
+x 0
+y 0
+w 48
+h 48
+
+ske_hurt_left2
+image data/LeftHurt.png
+x 48
+y 0
+w 48
+h 48
+
+ske_hurt_left3
+image data/LeftHurt.png
+x 96
+y 0
+w 48
+h 48
+
+ske_hurt_left4
+image data/LeftHurt.png
+x 144
+y 0
+w 48
+h 48
+
+
+
+ske_hurt_up1
+image data/UpHurt.png
+x 0
+y 0
+w 48
+h 48
+
+ske_hurt_up2
+image data/UpHurt.png
+x 48
+y 0
+w 48
+h 48
+
+ske_hurt_up3
+image data/UpHurt.png
+x 96
+y 0
+w 48
+h 48
+
+ske_hurt_up4
+image data/UpHurt.png
+x 144
+y 0
+w 48
+h 48
+
+
+ske_hurt_down1
+image data/DownHurt.png
+x 0
+y 0
+w 48
+h 48
+
+ske_hurt_down2
+image data/DownHurt.png
+x 48
+y 0
+w 48
+h 48
+
+ske_hurt_down3
+image data/DownHurt.png
+x 96
+y 0
+w 48
+h 48
+
+ske_hurt_down4
+image data/DownHurt.png
+x 144
+y 0
+w 48
+h 48
+
+
+ske_death_right1
+image data/RightDeath.png
+x 0
+y 0
+w 48
+h 48
+
+ske_death_right2
+image data/RightDeath.png
+x 48
+y 0
+w 48
+h 48
+
+
+ske_death_right3
+image data/RightDeath.png
+x 96
+y 0
+w 48
+h 48
+
+
+ske_death_right4
+image data/RightDeath.png
+x 144
+y 0
+w 48
+h 48
+
+
+ske_death_right5
+image data/RightDeath.png
+x 192
+y 0
+w 48
+h 48
+
+
+ske_death_right6
+image data/RightDeath.png
+x 240
+y 0
+w 48
+h 48
+
+
+ske_death_right7
+image data/RightDeath.png
+x 288
+y 0
+w 48
+h 48
+
+ske_death_right8
+image data/RightDeath.png
+x 336
+y 0
+w 48
+h 48
+
+ske_death_left1
+image data/LeftDeath.png
+x 0
+y 0
+w 48
+h 48
+
+ske_death_left2
+image data/LeftDeath.png
+x 48
+y 0
+w 48
+h 48
+
+
+ske_death_left3
+image data/LeftDeath.png
+x 96
+y 0
+w 48
+h 48
+
+
+ske_death_left4
+image data/LeftDeath.png
+x 144
+y 0
+w 48
+h 48
+
+
+ske_death_left5
+image data/LeftDeath.png
+x 192
+y 0
+w 48
+h 48
+
+
+ske_death_left6
+image data/LeftDeath.png
+x 240
+y 0
+w 48
+h 48
+
+
+ske_death_left7
+image data/LeftDeath.png
+x 288
+y 0
+w 48
+h 48
+
+ske_death_left8
+image data/LeftDeath.png
+x 336
+y 0
+w 48
+h 48
+
+ske_death_up1
+image data/UpDeath.png
+x 0
+y 0
+w 48
+h 48
+
+ske_death_up2
+image data/UpDeath.png
+x 48
+y 0
+w 48
+h 48
+
+
+ske_death_up3
+image data/UpDeath.png
+x 96
+y 0
+w 48
+h 48
+
+
+ske_death_up4
+image data/UpDeath.png
+x 144
+y 0
+w 48
+h 48
+
+
+ske_death_up5
+image data/UpDeath.png
+x 192
+y 0
+w 48
+h 48
+
+
+ske_death_up6
+image data/UpDeath.png
+x 240
+y 0
+w 48
+h 48
+
+
+ske_death_up7
+image data/UpDeath.png
+x 288
+y 0
+w 48
+h 48
+
+
+ske_death_up8
+image data/UpDeath.png
+x 336
+y 0
+w 48
+h 48
+
+
+ske_death_down1
+image data/DownDeath.png
+x 0
+y 0
+w 48
+h 48
+
+ske_death_down2
+image data/DownDeath.png
+x 48
+y 0
+w 48
+h 48
+
+
+ske_death_down3
+image data/DownDeath.png
+x 96
+y 0
+w 48
+h 48
+
+
+ske_death_down4
+image data/DownDeath.png
+x 144
+y 0
+w 48
+h 48
+
+
+ske_death_down5
+image data/DownDeath.png
+x 192
+y 0
+w 48
+h 48
+
+
+ske_death_down6
+image data/DownDeath.png
+x 240
+y 0
+w 48
+h 48
+
+ske_death_down7
+image data/DownDeath.png
+x 288
+y 0
+w 48
+h 48
+
+ske_death_down8
+image data/DownDeath.png
+x 336
+y 0
+w 48
+h 48
+
+
+
+
+
+
+
+
+
+
