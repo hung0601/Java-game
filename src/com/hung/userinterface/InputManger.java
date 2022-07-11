@@ -19,7 +19,8 @@ public class InputManger {
 		switch(keyCode) {
 		case KeyEvent.VK_UP:
                     if(gameWorld.isInventOpen){
-                        gameWorld.inventManager.slotRow--;
+                        
+                        if(gameWorld.inventManager.slotRow!=0)gameWorld.inventManager.slotRow--;
                         
                     }else if (!knight.isAttacking){
                         knight.setDirection(Knight.UP_DIR);
@@ -29,7 +30,7 @@ public class InputManger {
                       break;
 		case KeyEvent.VK_DOWN:
                     if(gameWorld.isInventOpen){
-                        gameWorld.inventManager.slotRow++;
+                        if(gameWorld.inventManager.slotRow!=8) gameWorld.inventManager.slotRow++;
                         
                     }else if (!knight.isAttacking){
                         knight.setDirection(Knight.DOWN_DIR);
@@ -39,7 +40,7 @@ public class InputManger {
                        break;
 		case KeyEvent.VK_LEFT:
                     if(gameWorld.isInventOpen){
-                        gameWorld.inventManager.slotCol--;
+                        if(gameWorld.inventManager.slotCol!=0) gameWorld.inventManager.slotCol--;
                         
                     }else if (!knight.isAttacking){
                         knight.setDirection(Knight.LEFT_DIR);
@@ -49,7 +50,7 @@ public class InputManger {
                         break;
 		case KeyEvent.VK_RIGHT:
                     if(gameWorld.isInventOpen){
-                        gameWorld.inventManager.slotCol++;
+                        if(gameWorld.inventManager.slotCol!=10)gameWorld.inventManager.slotCol++;
                         
                     }else if (!knight.isAttacking){
                         knight.setDirection(Knight.RIGHT_DIR);
