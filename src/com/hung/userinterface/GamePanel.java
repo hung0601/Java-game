@@ -21,6 +21,17 @@ import javax.imageio.ImageIO;
 import javax.swing.JPanel;
 
 public class GamePanel extends JPanel implements Runnable, KeyListener{
+    
+    
+    public final int TITLE=0;
+    public final int PLAY=1;
+    public final int PAUSE=2;
+    public final int GAMEOVER=3;
+    public final int GAMEWIN=4;
+    
+    public int gameState=TITLE;
+    
+        
 	
 	private Thread thread;
 	private boolean isRunning;
@@ -36,18 +47,25 @@ public class GamePanel extends JPanel implements Runnable, KeyListener{
         
         public int worldtype =1;
         
+        public  UI ui;
+        
         
         
 	
 	public GamePanel() {
-            gameWorld= new GameWorld(PhysicalMap.MAP2);
-            gameWorld2= new GameWorld(PhysicalMap.MAP1);
-            inputManger=new InputManger(gameWorld);
+            
+            inputManger=new InputManger(this);
                 
             bufImage=new BufferedImage(GameFrame.SCREEN_WIDTH,GameFrame.SCREEN_HEIGHT,BufferedImage.TYPE_INT_ARGB);
-        
+            ui = new UI(this);
 	}
         
+        public void initGame(){
+            worldtype =1;
+            gameWorld= new GameWorld(PhysicalMap.MAP2);
+            gameWorld2= new GameWorld(PhysicalMap.MAP1);
+            inputManger=new InputManger(gameWorld,this);
+        }
         
         public void  gotoGameWorld2(){
             worldtype=2;
@@ -100,10 +118,12 @@ public class GamePanel extends JPanel implements Runnable, KeyListener{
 	}
 	
         public void UpdateGame(){
-            if(haveReachWorld2Enntrance()) gotoGameWorld2();
-            if(haveReachWorld1Enntrance()) gotoGameWorld1();
-            if(worldtype==1) gameWorld.Update();
-            else gameWorld2.Update();
+            if(gameState==PLAY){
+                if(haveReachWorld2Enntrance()) gotoGameWorld2();
+                if(haveReachWorld1Enntrance()) gotoGameWorld1();
+                if(worldtype==1) gameWorld.Update();
+                else gameWorld2.Update();
+            }
         }
         
         public void RenderGame(){
@@ -113,10 +133,29 @@ public class GamePanel extends JPanel implements Runnable, KeyListener{
             bufG2D= (Graphics2D) bufImage.getGraphics();
             }
             if(bufG2D!=null){
-                bufG2D.setColor(Color.white);
+                //bufG2D.setColor(Color.white);
 		//bufG2D.fillRect(0,0,GameFrame.SCREEN_WIDTH,GameFrame.SCREEN_HEIGHT);
-                if(worldtype==1) gameWorld.Render(bufG2D);
-                else gameWorld2.Render(bufG2D);
+                
+                switch(gameState){
+                    case PLAY: 
+                        if(worldtype==1) gameWorld.Render(bufG2D);
+                        else gameWorld2.Render(bufG2D);
+                        break;
+                    case PAUSE:
+                        if(worldtype==1) gameWorld.Render(bufG2D);
+                        else gameWorld2.Render(bufG2D);
+                        ui.drawPauseGame(bufG2D);
+                        
+                        break;
+                    case TITLE:
+                        ui.drawTitle(bufG2D);
+                        
+                        break;
+                    case GAMEOVER:
+                        break;
+                    case GAMEWIN:
+                        break;
+                }
                 
 
             }
@@ -173,6 +212,10 @@ public class GamePanel extends JPanel implements Runnable, KeyListener{
 		inputManger.processKeyreleased(e.getKeyCode());
 
 	}
+
+    private void drawTitle() {
+        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+    }
 	
 	
 

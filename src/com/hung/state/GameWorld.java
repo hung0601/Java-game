@@ -30,6 +30,8 @@ import javax.imageio.ImageIO;
 
 public class GameWorld {
     
+    
+    
    public int maptype;
    public boolean isInventOpen=false;
     
@@ -101,6 +103,35 @@ public class GameWorld {
         
         
     }
+    
+    
+    public void Update(){
+        skillManager.UpdateObjects();
+        particularObjectManager.UpdateObjects();
+        graphicsEntityManager.UpdateObjects();
+        camera.Update();
+        itemmanager.UpdateObjects();
+        //swordSke1.Update();
+        
+    }
+    
+    public void Render(Graphics2D g2){
+        bar_leng=knightEntity.getKnight().getBlood()*385/100;
+        physicalMap.draw(g2);
+        graphicsEntityManager.draw(g2);
+        skillManager.draw(g2);
+        //swordSke1.draw(g2);
+        g2.drawImage(bar_border,0, 0, null);
+        g2.drawImage(health, 64, 0,bar_leng , health.getHeight(), null);
+        
+        itemmanager.draw(g2);
+        if(isInventOpen==true) inventManager.draw(g2);
+        
+        
+    }    
+    
+    
+    
     
     
     public MonsterEntity initSwordSkeletonEntity(){
@@ -177,28 +208,5 @@ public class GameWorld {
     
     
     
-    public void Update(){
-        skillManager.UpdateObjects();
-        particularObjectManager.UpdateObjects();
-        graphicsEntityManager.UpdateObjects();
-        camera.Update();
-        itemmanager.UpdateObjects();
-        //swordSke1.Update();
-        
-    }
     
-    public void Render(Graphics2D g2){
-        bar_leng=knightEntity.getKnight().getBlood()*385/100;
-        physicalMap.draw(g2);
-        graphicsEntityManager.draw(g2);
-        skillManager.draw(g2);
-        //swordSke1.draw(g2);
-        g2.drawImage(bar_border,0, 0, null);
-        g2.drawImage(health, 64, 0,bar_leng , health.getHeight(), null);
-        
-        itemmanager.draw(g2);
-        if(isInventOpen==true) inventManager.draw(g2);
-        
-        
-    }    
 }

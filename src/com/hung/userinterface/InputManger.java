@@ -6,16 +6,54 @@ import java.awt.event.KeyEvent;
 
 public class InputManger {
     
+    public GamePanel gp;
     public GameWorld gameWorld;
     public Knight knight;
     
-    public InputManger(GameWorld gameWorld){
+    public InputManger(GamePanel gp){
+        this.gp=gp;
+    }
+    public InputManger(GameWorld gameWorld, GamePanel gp){
+        this.gp=gp;
         this.gameWorld= gameWorld;
         this.knight=(Knight) gameWorld.knightEntity.getKnight();
     }
     
     
     public void processKeypressed(int keyCode) {
+        //TITLE
+        if(gp.gameState==gp.TITLE){
+            switch(keyCode) {
+		case KeyEvent.VK_UP:
+                        gp.ui.commandNum--;
+                        if(gp.ui.commandNum<0) gp.ui.commandNum=1;
+			break;
+		case KeyEvent.VK_DOWN:
+                        gp.ui.commandNum++;
+                        if(gp.ui.commandNum>1) gp.ui.commandNum=0;
+			break;
+		case KeyEvent.VK_LEFT:
+                        break;
+		case KeyEvent.VK_RIGHT:
+                        break;
+		case KeyEvent.VK_ENTER:
+                        if(gp.ui.commandNum==0) {
+                            gp.initGame();
+                            gp.gameState=gp.PLAY;
+                        }
+                        if(gp.ui.commandNum==1) System.exit(0);
+			break;
+		
+               
+		}
+            return;
+        
+        }
+        
+        
+        //PLAY
+        if(gp.gameState==gp.PLAY){
+        
 		switch(keyCode) {
 		case KeyEvent.VK_UP:
                     if(gameWorld.isInventOpen){
@@ -68,7 +106,9 @@ public class InputManger {
                     }      
             
 			break;
-		case KeyEvent.VK_SPACE:
+		case KeyEvent.VK_ESCAPE:
+                        gp.gameState=gp.PAUSE;
+                        knight.stopRun();
 			break;
 		case KeyEvent.VK_A:
                         knight.attack();
@@ -79,9 +119,49 @@ public class InputManger {
                     else gameWorld.isInventOpen=true;
 			break;
 		}
-	}
+            return;
+        }
+        
+        
+        //PAUSE
+        if(gp.gameState==gp.PAUSE){
+            switch(keyCode) {
+		case KeyEvent.VK_UP:
+                        gp.ui.commandNum--;
+                        if(gp.ui.commandNum<0) gp.ui.commandNum=2;
+			break;
+		case KeyEvent.VK_DOWN:
+                        gp.ui.commandNum++;
+                        if(gp.ui.commandNum>2) gp.ui.commandNum=0;
+			break;
+		case KeyEvent.VK_LEFT:
+                        break;
+		case KeyEvent.VK_RIGHT:
+                        break;
+		case KeyEvent.VK_ENTER:
+                        if(gp.ui.commandNum==0) {
+                            //gp.initGame();
+                            gp.gameState=gp.PLAY;
+                        }
+                        if(gp.ui.commandNum==1) {
+                            gp.initGame();
+                            gp.gameState=gp.PLAY;
+                        }
+                        if(gp.ui.commandNum==2) System.exit(0);
+			break;
+		
+               
+		}
+            return;
+        
+        }
+        
+        
+        
+}
 	
     public void processKeyreleased(int keyCode) {
+        if(gp.gameState==gp.PLAY){
 		switch(keyCode) {
 		case KeyEvent.VK_UP:
                         knight.setSpeedY(0);
@@ -106,4 +186,5 @@ public class InputManger {
                
 		}
 	}
+    }
 }
