@@ -36,6 +36,7 @@ public class ItemManager {
         
         synchronized(Items){
             Items.add(item);
+            
         }
         
     }
@@ -62,6 +63,7 @@ public class ItemManager {
                 if(object.getPickupRange().intersects(gameWorld.knightEntity.getKnight().getBoundForCollisionWithMap())){
                     object.isInInvent=true;
                     gameWorld.knightEntity.getKnight().getInvent().items.add(object);
+                    gameWorld.sMessage.addMessage("+1 "+Items.get(id).getName());
                     Items.remove(id);
                 }
             }

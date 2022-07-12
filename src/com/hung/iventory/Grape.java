@@ -22,6 +22,7 @@ public class Grape extends Item{
             this.image = temImage.getSubimage(160, 448, 32, 32);
             frame = new FrameImage("Grape", image);
              des = frame.getName() + ": Heal 10 HP";
+             this.name="Grape";
         } catch (Exception e) {
                }     
      }

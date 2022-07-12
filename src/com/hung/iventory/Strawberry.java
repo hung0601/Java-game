@@ -21,6 +21,7 @@ public class Strawberry extends Item{
             this.image = temImage.getSubimage(128, 448, 32, 32);
             frame = new FrameImage("Strawberry", image);
               des = frame.getName() + ": Increase 3 ATK";
+              this.name="Strawberry";
         } catch (Exception e) {
                }
      }

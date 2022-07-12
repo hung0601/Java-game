@@ -20,7 +20,10 @@ public abstract class Item {
     protected FrameImage frame;
     protected int dmg;
     protected String des = " ";
+    protected String name = " ";
     protected BufferedImage image;
+
+    
     
     private float posX;
     private float posY;
@@ -31,6 +34,14 @@ public abstract class Item {
         this.posX= posX;
         this.posY= posY;
         
+    }
+    
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
     }
     
     public float getPosX() {

@@ -26,6 +26,7 @@ public class GamePanel extends JPanel implements Runnable, KeyListener{
     public final int TITLE=0;
     public final int PLAY=1;
     public final int PAUSE=2;
+    
     public final int GAMEOVER=3;
     public final int GAMEWIN=4;
     

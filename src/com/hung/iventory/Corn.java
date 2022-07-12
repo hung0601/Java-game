@@ -22,6 +22,7 @@ public class Corn extends Item{
             this.image = temImage.getSubimage(224, 448, 32, 32);
             frame = new FrameImage("Corn", image);
               des = frame.getName() + ": Increase 7 DEF";
+              this.name="Corn";
         } catch (Exception e) {
                }
      }

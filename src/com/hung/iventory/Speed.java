@@ -23,6 +23,7 @@ public class Speed extends Item{
 //             System.out.println(image1);
             frame = new FrameImage("Acceleration ", image);
             des = frame.getName() + ": Increase Speed";
+            this.name="Speed Drug";
         } catch (Exception e) { 
     }
     }

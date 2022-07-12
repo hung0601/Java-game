@@ -22,6 +22,7 @@ public class Onion extends Item{
             this.image = temImage.getSubimage(256, 448, 32, 32);
             frame = new FrameImage("Onion", image);
               des = frame.getName() + ": Increase 1 DEF";
+              this.name="Onion";
         } catch (Exception e) {
                }
      }

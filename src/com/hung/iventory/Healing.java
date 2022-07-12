@@ -23,6 +23,7 @@ public class Healing extends  Item{
 //             System.out.println(image1);
             frame = new FrameImage("Small Potions", image);
             des = frame.getName() + ": Heal 15 HP";
+            this.name="Healing Drug";
         } catch (Exception e) {
     }
     }

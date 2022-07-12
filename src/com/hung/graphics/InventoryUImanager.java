@@ -103,7 +103,7 @@ public class InventoryUImanager {
          return itemIndex;
     }
     public void drawWindow(int x, int y, int width, int height){
-      Color c = Color.black;
+      Color c = new Color(0,0,0,0.5f);
       g2.setColor(c);
       g2.fillRoundRect(x, y, width, height, 35, 35);
       

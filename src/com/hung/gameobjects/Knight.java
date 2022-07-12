@@ -21,7 +21,7 @@ public class Knight extends Creature {
     public static final int RUNSPEED = 3;
     private Inventory invent;
 
-    
+    public boolean isAttacking2=false;
 
     public Knight(float x, float y, GameWorld gameWorld) {
         super(x, y, 20, 56, 100, gameWorld);
@@ -32,6 +32,7 @@ public class Knight extends Creature {
         setTeamType(LEAGUE_TEAM);
         setTimeForBeHurt(2000000); 
         invent= new Inventory(getGameWorld().inventManager,this);
+        setDamage(5);
 
      
         
@@ -100,9 +101,9 @@ public class Knight extends Creature {
     @Override
     public void attack() {
     
-        if(!isAttacking){
+        if(!isAttacking && !isAttacking2){
             stopRun();
-            Skill skill = new SwordAttack(getPosX(), getPosY(), getGameWorld());
+            Skill skill = new SwordAttack(getPosX(), getPosY(), getGameWorld(),getDamage());
             switch(getDirection()){
                 case LEFT_DIR:
                     skill.setPosX(skill.getPosX()-20);
@@ -126,6 +127,39 @@ public class Knight extends Creature {
             getGameWorld().skillManager.addObject(skill);
             lastAttackTime=System.nanoTime();
             isAttacking = true;
+            
+            
+        }
+         
+            
+    }
+    
+    
+    public void attack2() {
+    
+        if(!isAttacking && !isAttacking2){
+            stopRun();
+            if(getDirection()==UP_DIR || getDirection()==DOWN_DIR){
+                Skill skill = new StabSword(getPosX(), getPosY(), getGameWorld(),DOWN_DIR,getDamage());
+                skill.setTeamType(getTeamType());
+                getGameWorld().skillManager.addObject(skill);
+            
+                Skill skill2 = new StabSword(getPosX(), getPosY(), getGameWorld(),UP_DIR,getDamage());
+                skill2.setTeamType(getTeamType());
+                getGameWorld().skillManager.addObject(skill2);
+            
+            }else{
+                Skill skill = new StabSword(getPosX(), getPosY(), getGameWorld(),LEFT_DIR,getDamage());
+                skill.setTeamType(getTeamType());
+                getGameWorld().skillManager.addObject(skill);
+            
+                Skill skill2 = new StabSword(getPosX(), getPosY(), getGameWorld(),RIGHT_DIR,getDamage());
+                skill2.setTeamType(getTeamType());
+                getGameWorld().skillManager.addObject(skill2);
+            
+            }
+            lastAttackTime=System.nanoTime();
+            isAttacking2=true;
             
             
         }

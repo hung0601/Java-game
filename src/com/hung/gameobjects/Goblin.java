@@ -4,12 +4,13 @@
  */
 package com.hung.gameobjects;
 
-
-import com.hung.state.GameWorld;
+import static com.hung.gameobjects.ParticularObject.ALIVE;
 import static com.hung.gameobjects.ParticularObject.DOWN_DIR;
+import static com.hung.gameobjects.ParticularObject.ENEMY_TEAM;
 import static com.hung.gameobjects.ParticularObject.LEFT_DIR;
 import static com.hung.gameobjects.ParticularObject.RIGHT_DIR;
 import static com.hung.gameobjects.ParticularObject.UP_DIR;
+import com.hung.state.GameWorld;
 import java.awt.Graphics2D;
 import java.awt.Rectangle;
 
@@ -17,12 +18,11 @@ import java.awt.Rectangle;
  *
  * @author manhh
  */
-public class SwordSkeleton extends Creature{
-    
+public class Goblin extends Creature{
     public static final int RUNSPEED = 1;
     private Rectangle range;
 
-    public SwordSkeleton(float x, float y, GameWorld gameWorld) {
+    public Goblin(float x, float y, GameWorld gameWorld) {
         super(x, y, 20, 56, 30, gameWorld);
         
 //        shooting1 = CacheDataLoader.getInstance().getSound("bluefireshooting");
@@ -55,7 +55,7 @@ public class SwordSkeleton extends Creature{
         int x= (int)getGameWorld().knightEntity.getKnight().getPosX();
         int y= (int)getGameWorld().knightEntity.getKnight().getPosY();
         
-        if(x>getPosX()-130&& x<getPosX()+130 && y>getPosY()-130&& y<getPosY()+130){
+        if(x>getPosX()-400&& x<getPosX()+400 && y>getPosY()-400&& y<getPosY()+400){
             return true;
         }
         else return false;
@@ -65,7 +65,7 @@ public class SwordSkeleton extends Creature{
         int x= (int)getGameWorld().knightEntity.getKnight().getPosX();
         int y= (int)getGameWorld().knightEntity.getKnight().getPosY();
         
-        if(x>getPosX()-40&& x<getPosX()+40 && y>getPosY()-40&& y<getPosY()+40){
+        if(x>getPosX()-350&& x<getPosX()+350 && y>getPosY()-350&& y<getPosY()+350){
             return true;
         }
         else return false;
@@ -83,28 +83,11 @@ public class SwordSkeleton extends Creature{
     @Override
     public void attack() {
         if(!isAttacking && isAttackColdownOver() && getState()==ALIVE){
+            int x= (int)getGameWorld().knightEntity.getKnight().getPosX();
+            int y= (int)getGameWorld().knightEntity.getKnight().getPosY();
             System.out.println("attack");
             stopRun();
-            Skill skill = new SwordAttack(getPosX(), getPosY(), getGameWorld(),getDamage());
-            switch(getDirection()){
-                case LEFT_DIR:
-                    skill.setPosX(skill.getPosX()-20);
-                    break;
-                case RIGHT_DIR:
-                    skill.setPosX(skill.getPosX()+20);
-                    break;
-                case UP_DIR:
-                    skill.setPosY(skill.getPosY()-28);
-                    skill.setHeight(40);
-                    skill.setWidth(50);
-                    break;
-                case DOWN_DIR:
-                    skill.setPosY(skill.getPosY()+28);
-                    skill.setHeight(40);
-                    skill.setWidth(50);
-                    break;
-                    
-            }
+            Skill skill = new StoneAmmo(getPosX(), getPosY(), getGameWorld(),getDirection(),getDamage(),x,y);
             skill.setTeamType(getTeamType());
             getGameWorld().skillManager.addObject(skill);
             lastAttackTime=System.nanoTime();
@@ -128,6 +111,7 @@ public class SwordSkeleton extends Creature{
         
         
         if(isInAttackRange() && !isAttacking && getState()==ALIVE) {
+            
             stopRun();
             attack();
         }
@@ -213,5 +197,4 @@ public class SwordSkeleton extends Creature{
         bound.height = (int) getHeight();
         return bound;
     }
-    
 }

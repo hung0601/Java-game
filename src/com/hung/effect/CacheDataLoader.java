@@ -199,7 +199,7 @@ public class CacheDataLoader {
                 
                 for(int j = 0;j<str.length;j+=2){
                     animation.add(getFrameImage(str[j]), Double.parseDouble(str[j+1]));
-                    System.out.println(Double.parseDouble(str[j+1]));
+                    
                 }
                 
                 instance.animations.put(animation.getName(), animation);

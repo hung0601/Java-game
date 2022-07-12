@@ -22,6 +22,7 @@ public class Defend extends Item{
             this.image = temImage.getSubimage(32, 288, 32, 32);
             frame = new FrameImage("Defend", image);
              des = frame.getName() + ": Increas 10 DEF";
+             this.name="Degend Drug";
         } catch (Exception e) {
                }
      }

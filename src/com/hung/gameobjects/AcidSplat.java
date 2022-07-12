@@ -4,6 +4,9 @@
  */
 package com.hung.gameobjects;
 
+import com.hung.effect.Animation;
+import com.hung.effect.CacheDataLoader;
+import static com.hung.gameobjects.ParticularObject.ALIVE;
 import com.hung.state.GameWorld;
 import java.awt.Graphics2D;
 import java.awt.Rectangle;
@@ -12,15 +15,16 @@ import java.awt.Rectangle;
  *
  * @author manhh
  */
-public class SwordAttack extends Skill{
-    
-    
-    public SwordAttack(float x, float y, GameWorld gameWorld,int masterDamage) {
-        super(x, y, 40, 60, 10+masterDamage, gameWorld);
-        setRemainTime(500*1000);
+public class AcidSplat extends Skill{
+    public Animation exploy;
+    public AcidSplat(float x, float y, GameWorld gameWorld,int masterDamage) {
+        super(x, y, 20, 20, 10+masterDamage, gameWorld);
+        setRemainTime(700*1000);
         setBeginTime(System.nanoTime());
-        setSpeedX(0);
-        setSpeedY(0);
+        setSpeedX(2);
+        setSpeedY(2);
+        
+        exploy = CacheDataLoader.getInstance().getAnimation("acid_splat");
     }
     
     
@@ -41,10 +45,13 @@ public class SwordAttack extends Skill{
     @Override
     public void Update() {
             // TODO Auto-generated method stub
+            
+         setWidth(getWidth()+getSpeedX());
+         setHeight(getHeight()+getSpeedY());
         if(isRemain()){
         ParticularObject object = getGameWorld().particularObjectManager.getCollisionWidthEnemyObject(this);
         if(object!=null && object.getState() == ALIVE){
-            setBlood(0);
+            //setBlood(0);
             object.beHurt(getDamage());
             System.out.println("Bullet set behurt for enemy");
         }
@@ -53,7 +60,10 @@ public class SwordAttack extends Skill{
 
     @Override
     public void draw(Graphics2D g2) {
-        //drawBoundForCollisionWithEnemy(g2);
+        drawBoundForCollisionWithEnemy(g2);
+        exploy.Update(System.nanoTime());
+        exploy.draw((int) (getPosX() - getGameWorld().camera.getPosX()), (int) getPosY() - (int) getGameWorld().camera.getPosY(), g2);
+              
     }
 
     @Override
@@ -61,6 +71,4 @@ public class SwordAttack extends Skill{
         throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
     }
 
-    
-    
 }

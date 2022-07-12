@@ -22,6 +22,7 @@ public class Apple extends Item{
             this.image = temImage.getSubimage(0, 448, 32, 32);
             frame = new FrameImage("Apple", image);
             des = frame.getName() + ": Heal 5 HP";
+            this.name="Apple";
         } catch (Exception e) {
                }       
      }
@@ -30,6 +31,7 @@ public class Apple extends Item{
     public void UseItem(Knight knight){
         if(knight.getBlood()+5>100) knight.setBlood(100);
         else  knight.setBlood(knight.getBlood()+5);
+        
     }
 
    

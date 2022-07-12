@@ -1,4 +1,19 @@
-74
+80
+
+stone_ammo
+stone_ammo1 100000000 stone_ammo2 100000000 stone_ammo3 100000000 stone_ammo4 100000000
+
+skill_left
+skill_left1 100000000 skill_left2 100000000 skill_left3 100000000 skill_left4 100000000
+
+skill_right
+skill_right1 100000000 skill_right2 100000000 skill_right3 100000000 skill_right4 100000000
+
+skill_up
+skill_up1 100000000 skill_up2 100000000 skill_up3 100000000 skill_up4 100000000
+
+skill_down
+skill_down1 100000000 skill_down2 100000000 skill_down3 100000000 skill_down4 100000000
 
 main_attack_left
 main_attack_left1 100000000 main_attack_left2 100000000 main_attack_left3 100000000 main_attack_left4 150000000 main_attack_left5 150000000 main_attack_left6 150000000 
@@ -18,16 +33,16 @@ main_attack_up1 100000000 main_attack_up2 100000000 main_attack_up3 100000000 ma
 
 
 gob_attack_left
-gob_attack_left1 100000000 gob_attack_left2 100000000 gob_attack_left3 100000000 gob_attack_left4 150000000 gob_attack_left5 150000000 gob_attack_left6 150000000 gob_attack_left7 150000000 gob_attack_left8 150000000 gob_attack_left9 150000000 gob_attack_left10 150000000 gob_attack_left11 150000000
+gob_attack_left9 100000000 gob_attack_left10 150000000 gob_attack_left11 150000000
 
 gob_attack_right
-gob_attack_right1 100000000 gob_attack_right2 100000000 gob_attack_right3 100000000 gob_attack_right4 150000000 gob_attack_right5 150000000 gob_attack_right6 150000000 gob_attack_right7 150000000 gob_attack_right8 150000000 gob_attack_right9 150000000 gob_attack_right10 150000000 gob_attack_right11 150000000
+gob_attack_right9 100000000 gob_attack_right10 150000000 gob_attack_right11 150000000
 
 gob_attack_down
-gob_attack_down1 100000000 gob_attack_down2 100000000 gob_attack_down3 100000000 gob_attack_down4 150000000 gob_attack_down5 150000000 gob_attack_down6 150000000 gob_attack_down7 150000000 gob_attack_down8 150000000 gob_attack_down9 150000000 gob_attack_down10 150000000 gob_attack_down11 150000000
+gob_attack_down9 100000000 gob_attack_down10 150000000 gob_attack_down11 150000000
 
 gob_attack_up
-gob_attack_up1 100000000 gob_attack_up2 100000000 gob_attack_up3 100000000 gob_attack_up4 150000000 gob_attack_up5 150000000 gob_attack_up6 150000000 gob_attack_up7 150000000 gob_attack_up8 150000000 gob_attack_up9 150000000 gob_attack_up10 150000000 gob_attack_up11 150000000
+gob_attack_up9 100000000 gob_attack_up10 150000000 gob_attack_up11 150000000
 
 
 gob_death_left
@@ -97,11 +112,14 @@ beetle_right 100000000
 beetle_up
 beetle_up 100000000 
 
+eggsplosion_idle
+eggsplosion1 100000000 eggsplosion2 100000000 eggsplosion3 100000000 eggsplosion4 100000000
+
 eggsplosion
-eggsplosion1 100000000 eggsplosion2 100000000 eggsplosion3 100000000 eggsplosion4 100000000 eggsplosion5 100000000 eggsplosion6 100000000 eggsplosion7 100000000 eggsplosion8 100000000
+eggsplosion1 50000000 eggsplosion2 50000000 eggsplosion3 50000000 eggsplosion4 50000000 eggsplosion5 50000000 eggsplosion6 50000000 eggsplosion7 50000000 eggsplosion8 50000000
 
 acid_splat
-acid_splat1 300000000 acid_splat2 300000000 acid_splat3 300000000 acid_splat4 300000000 acid_splat5 300000000 acid_splat6 300000000
+acid_splat1 100000000 acid_splat2 100000000 acid_splat3 100000000 acid_splat4 100000000 acid_splat5 100000000 acid_splat6 100000000
 
 beetle_move_right
 beetle_move_right1 150000000 beetle_move_right2 150000000 beetle_move_right3 150000000 beetle_move_right4 150000000

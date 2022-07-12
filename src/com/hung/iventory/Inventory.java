@@ -45,9 +45,13 @@ public class Inventory {
             items.add(item);
         }
     }
-    
+    public boolean isEmpty(){
+        return items.isEmpty();
+    }
     public void  UseItem(int item){
+        knight.getGameWorld().sMessage.addMessage("Consume 1 "+items.get(item).getName());
         items.get(item).UseItem(knight);
         items.remove(item);
+        
     }
 }

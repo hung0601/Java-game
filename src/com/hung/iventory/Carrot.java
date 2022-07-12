@@ -22,6 +22,7 @@ public class Carrot extends Item{
             this.image = temImage.getSubimage(192, 448, 32, 32);
             frame = new FrameImage("Carot", image);
             des = frame.getName() + ": Heal 7 HP";
+            this.name="Carrot";
         } catch (Exception e) {
                }       
      }

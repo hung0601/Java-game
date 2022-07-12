@@ -26,6 +26,7 @@ import java.awt.Graphics2D;
  * @author manhh
  */
 public class KnightEntity extends GraphicsEntity{
+    public Animation attackLeft2, attackRight2, attackUp2, attackDown2;
  
     private Knight knight;
     public KnightEntity(int x,int y,GameWorld gameWorld){
@@ -47,6 +48,11 @@ public class KnightEntity extends GraphicsEntity{
         attackRight = CacheDataLoader.getInstance().getAnimation("attack_right");
         attackUp = CacheDataLoader.getInstance().getAnimation("attack_up");
         attackDown = CacheDataLoader.getInstance().getAnimation("attack_down");
+        
+        attackLeft2 = CacheDataLoader.getInstance().getAnimation("main_attack_left");
+        attackRight2 = CacheDataLoader.getInstance().getAnimation("main_attack_right");
+        attackUp2 = CacheDataLoader.getInstance().getAnimation("main_attack_up");
+        attackDown2 = CacheDataLoader.getInstance().getAnimation("main_attack_down");
         
         deadLeft = CacheDataLoader.getInstance().getAnimation("death_left");
         deadRight = CacheDataLoader.getInstance().getAnimation("death_right");
@@ -98,7 +104,15 @@ switch(knight.getState()){
                                         knight.isAttacking=false;
                                     }
                                 }
+                                else if(knight.isAttacking2){
+                                    attackRight2.Update(System.nanoTime());
+                                    attackRight2.draw((int) (getPosX() - getGameWorld().camera.getPosX()), (int) getPosY() - (int) getGameWorld().camera.getPosY(), g2);
+                                    if(attackRight2.isLastFrame()){
+                                        knight.isAttacking2=false;
+                                    }
+                                }
                                 else{
+                                attackRight2.reset();
                                 attackRight.reset();
                                 idleRight.Update(System.nanoTime());
                                 idleRight.draw((int) (getPosX() - getGameWorld().camera.getPosX()), (int) getPosY() - (int) getGameWorld().camera.getPosY(), g2);
@@ -111,7 +125,15 @@ switch(knight.getState()){
                                         knight.isAttacking=false;
                                     }
                                 }
+                                else if(knight.isAttacking2){
+                                    attackLeft2.Update(System.nanoTime());
+                                    attackLeft2.draw((int) (getPosX() - getGameWorld().camera.getPosX()), (int) getPosY() - (int) getGameWorld().camera.getPosY(), g2);
+                                    if(attackLeft2.isLastFrame()){
+                                        knight.isAttacking2=false;
+                                    }
+                                }
                                 else{
+                                attackLeft2.reset();
                                 attackLeft.reset();
                                 idleLeft.Update(System.nanoTime());
                                 idleLeft.draw((int) (getPosX() - getGameWorld().camera.getPosX()), (int) getPosY() - (int) getGameWorld().camera.getPosY(), g2);
@@ -125,11 +147,19 @@ switch(knight.getState()){
                                         knight.isAttacking=false;
                                     }
                                 }
+                                else if(knight.isAttacking2){
+                                    attackUp2.Update(System.nanoTime());
+                                    attackUp2.draw((int) (getPosX() - getGameWorld().camera.getPosX()), (int) getPosY() - (int) getGameWorld().camera.getPosY(), g2);
+                                    if(attackUp2.isLastFrame()){
+                                        knight.isAttacking2=false;
+                                    }
+                                }
                                 else{
+                                attackUp2.reset();
                                 attackUp.reset();
                                 idleUp.Update(System.nanoTime());
                                 idleUp.draw((int) (getPosX() - getGameWorld().camera.getPosX()), (int) getPosY() - (int) getGameWorld().camera.getPosY(), g2);
-                                } 
+                                }
                             }
                             else{
                                 
@@ -140,11 +170,19 @@ switch(knight.getState()){
                                         knight.isAttacking=false;
                                     }
                                 }
+                                else if(knight.isAttacking2){
+                                    attackDown2.Update(System.nanoTime());
+                                    attackDown2.draw((int) (getPosX() - getGameWorld().camera.getPosX()), (int) getPosY() - (int) getGameWorld().camera.getPosY(), g2);
+                                    if(attackDown2.isLastFrame()){
+                                        knight.isAttacking2=false;
+                                    }
+                                }
                                 else{
+                                attackDown2.reset();
                                 attackDown.reset();
                                 idleDown.Update(System.nanoTime());
                                 idleDown.draw((int) (getPosX() - getGameWorld().camera.getPosX()), (int) getPosY() - (int) getGameWorld().camera.getPosY(), g2);
-                                } 
+                                }
                             }
                         }            
                     

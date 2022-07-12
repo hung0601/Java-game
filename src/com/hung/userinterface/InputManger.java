@@ -97,7 +97,7 @@ public class InputManger {
                     }
 			break;
 		case KeyEvent.VK_ENTER:
-                    if(gameWorld.isInventOpen){
+                    if(gameWorld.isInventOpen && !gameWorld.inventManager.in.isEmpty()){
                         int itemIndex = gameWorld.inventManager.getItemIndexOnSlot();
                         if(itemIndex < knight.getInvent().items.size()){
                         System.out.println(knight.getInvent().items.get(itemIndex).getDes());
@@ -112,6 +112,9 @@ public class InputManger {
 			break;
 		case KeyEvent.VK_A:
                         knight.attack();
+			break;
+                case KeyEvent.VK_D:
+                        knight.attack2();
 			break;
                 case KeyEvent.VK_I:
                     if(gameWorld.isInventOpen)

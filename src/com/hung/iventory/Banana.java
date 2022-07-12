@@ -22,6 +22,7 @@ public class Banana extends Item{
                this.image = temImage.getSubimage(32, 448, 32, 32);
                frame = new FrameImage("Banana", image);
                 des = frame.getName() + ": Increase 5 ATK";
+                this.name="Banana";
                 } catch (Exception e) {
                 }        
              }

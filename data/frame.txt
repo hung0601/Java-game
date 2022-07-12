@@ -1,4 +1,151 @@
-438
+458
+
+stone_ammo1
+image data/stone_ammo.png
+x 0
+y 0
+w 16
+h 16
+
+stone_ammo2
+image data/stone_ammo.png
+x 16
+y 0
+w 16
+h 16
+
+
+stone_ammo3
+image data/stone_ammo.png
+x 32
+y 0
+w 16
+h 16
+
+stone_ammo4
+image data/stone_ammo.png
+x 48
+y 0
+w 16
+h 16
+
+skill_down1
+image data/skill_up2.png
+x 0
+y 0
+w 48
+h 48
+
+skill_down2
+image data/skill_up2.png
+x 48
+y 0
+w 48
+h 48
+
+
+skill_down3
+image data/skill_up2.png
+x 96
+y 0
+w 48
+h 48
+
+skill_down4
+image data/skill_up2.png
+x 144
+y 0
+w 48
+h 48
+
+skill_up1
+image data/skill_up2.png
+x 0
+y 0
+w 48
+h 48
+
+skill_up2
+image data/skill_up2.png
+x 48
+y 0
+w 48
+h 48
+
+
+skill_up3
+image data/skill_up2.png
+x 96
+y 0
+w 48
+h 48
+
+skill_up4
+image data/skill_up2.png
+x 144
+y 0
+w 48
+h 48
+
+skill_left1
+image data/skill_left2.png
+x 0
+y 0
+w 48
+h 48
+
+skill_left2
+image data/skill_left2.png
+x 48
+y 0
+w 48
+h 48
+
+
+skill_left3
+image data/skill_left2.png
+x 96
+y 0
+w 48
+h 48
+
+skill_left4
+image data/skill_left2.png
+x 144
+y 0
+w 48
+h 48
+
+skill_right1
+image data/skill_right2.png
+x 0
+y 0
+w 48
+h 48
+
+skill_right2
+image data/skill_right2.png
+x 48
+y 0
+w 48
+h 48
+
+
+skill_right3
+image data/skill_right2.png
+x 96
+y 0
+w 48
+h 48
+
+skill_right4
+image data/skill_right2.png
+x 144
+y 0
+w 48
+h 48
+
+
 
 main_attack_right1
 image data/attack_right2.png

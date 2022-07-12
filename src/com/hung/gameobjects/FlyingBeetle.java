@@ -140,10 +140,7 @@ public class FlyingBeetle extends Creature{
         
     }
     
-    public void draw(Graphics2D g2) {
-        drawBoundForCollisionWithMap(g2);
-        drawBoundForCollisionWithEnemy(g2);
-    }
+    
 
     @Override
     public void run() {
