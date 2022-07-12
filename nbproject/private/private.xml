@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/D:/oop/gamehay/src/com/hung/gameobjects/SwordSkeleton.java</file>
+            <file>file:/D:/oop/gamehay/src/com/hung/userinterface/InputManger.java</file>
+            <file>file:/D:/oop/gamehay/src/com/hung/gameobjects/Creature.java</file>
+            <file>file:/D:/oop/gamehay/src/com/hung/effect/FrameImage.java</file>
+            <file>file:/D:/oop/gamehay/src/com/hung/graphics/KnightEntity.java</file>
+            <file>file:/D:/oop/gamehay/src/com/hung/gameobjects/SwordAttack.java</file>
+            <file>file:/D:/oop/gamehay/src/com/hung/state/GameWorld.java</file>
+            <file>file:/D:/oop/gamehay/src/com/hung/gameobjects/Knight.java</file>
+            <file>file:/D:/oop/gamehay/src/com/hung/effect/CacheDataLoader.java</file>
+            <file>file:/D:/oop/gamehay/src/com/hung/gameobjects/ParticularObject.java</file>
+            <file>file:/D:/oop/gamehay/src/com/hung/graphics/MonsterEntity.java</file>
+            <file>file:/D:/oop/gamehay/src/com/hung/gameobjects/GameObject.java</file>
+            <file>file:/D:/oop/gamehay/src/com/hung/graphics/GraphicsEntity.java</file>
+            <file>file:/D:/oop/gamehay/src/com/hung/graphics/GraphicsEntityManager.java</file>
+        </group>
+    </open-files>
+</project-private>
