@@ -15,7 +15,7 @@ import java.util.ArrayList;
  * @author Admin
  */
 public class Inventory {
-    Knight knight;
+    public Knight knight;
     public ArrayList<Item> items = new  ArrayList<>();
     public final int size = 35;
     public int currentSlot;

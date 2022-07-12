@@ -50,6 +50,27 @@ public class InputManger {
         
         }
         
+        if(gp.gameState==gp.GAMEOVER){
+            if(keyCode==KeyEvent.VK_ENTER) {
+                gp.gameWorld=null;
+		gp.gameState=gp.TITLE;
+            }
+            return;
+        
+        }
+        
+        if(gp.gameState==gp.GAMEWIN){
+            if(keyCode==KeyEvent.VK_ENTER) {
+                gp.gameWorld=null;
+                gp.gameState=gp.TITLE;
+            }
+            return;
+        
+        }
+        
+        
+        
+        
         
         //PLAY
         if(gp.gameState==gp.PLAY){

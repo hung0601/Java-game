@@ -1,4 +1,7 @@
-80
+81
+
+princess
+princess1 100000000 princess2 100000000 princess3 100000000 princess4 100000000
 
 stone_ammo
 stone_ammo1 100000000 stone_ammo2 100000000 stone_ammo3 100000000 stone_ammo4 100000000

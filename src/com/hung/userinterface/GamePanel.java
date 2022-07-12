@@ -5,6 +5,7 @@ import com.hung.effect.CacheDataLoader;
 import com.hung.effect.FrameImage;
 import com.hung.state.GameWorld;
 import com.hung.gameobjects.Knight;
+import com.hung.gameobjects.ParticularObject;
 import com.hung.gameobjects.PhysicalMap;
 import java.awt.Color;
 import java.awt.Graphics;
@@ -50,7 +51,7 @@ public class GamePanel extends JPanel implements Runnable, KeyListener{
         
         public  UI ui;
         
-        
+    
         
 	
 	public GamePanel() {
@@ -79,6 +80,7 @@ public class GamePanel extends JPanel implements Runnable, KeyListener{
             gameWorld2.knightEntity.getKnight().setDirection(gameWorld.knightEntity.getKnight().getDirection());
             gameWorld2.knightEntity.getKnight().setInvent(gameWorld.knightEntity.getKnight().getInvent());
             gameWorld2.inventManager.in=gameWorld.knightEntity.getKnight().getInvent();
+            gameWorld2.inventManager.in.knight=gameWorld2.knightEntity.getKnight();
         
         }
         
@@ -94,6 +96,7 @@ public class GamePanel extends JPanel implements Runnable, KeyListener{
             
             gameWorld.knightEntity.getKnight().setInvent(gameWorld2.knightEntity.getKnight().getInvent());
             gameWorld.inventManager.in=gameWorld2.knightEntity.getKnight().getInvent();
+            gameWorld.inventManager.in.knight=gameWorld.knightEntity.getKnight();
         
         
         }
@@ -102,6 +105,15 @@ public class GamePanel extends JPanel implements Runnable, KeyListener{
         public boolean haveReachWorld2Enntrance(){
             if(worldtype==1 && gameWorld.knightEntity.getKnight().getPosY()>1200) return true;
             else return false;
+        
+        }
+        
+        public Knight getKnight(){
+            if(gameWorld!=null){
+            if(worldtype==1)  return gameWorld.knightEntity.getKnight();
+            else return gameWorld2.knightEntity.getKnight();
+            }
+            return null;
         
         }
         
@@ -119,6 +131,11 @@ public class GamePanel extends JPanel implements Runnable, KeyListener{
 	}
 	
         public void UpdateGame(){
+            if(getKnight()!=null){
+            if(getKnight().getState()==ParticularObject.DEATH) gameState= GAMEOVER;
+            if(worldtype==2 && getKnight().getPosX()>1760 && getKnight().getPosX()<1820 && getKnight().getPosY()>928 && getKnight().getPosY()<992)
+                gameState= GAMEWIN;
+            }
             if(gameState==PLAY){
                 if(haveReachWorld2Enntrance()) gotoGameWorld2();
                 if(haveReachWorld1Enntrance()) gotoGameWorld1();
@@ -139,12 +156,25 @@ public class GamePanel extends JPanel implements Runnable, KeyListener{
                 
                 switch(gameState){
                     case PLAY: 
-                        if(worldtype==1) gameWorld.Render(bufG2D);
-                        else gameWorld2.Render(bufG2D);
+                        if(worldtype==1) {
+                            gameWorld.Render(bufG2D);
+                            
+                        }
+                        else {
+                            gameWorld2.Render(bufG2D);
+                            ui.drawPrincess(bufG2D);
+                        }
+                        
                         break;
                     case PAUSE:
-                        if(worldtype==1) gameWorld.Render(bufG2D);
-                        else gameWorld2.Render(bufG2D);
+                        if(worldtype==1) {
+                            gameWorld.Render(bufG2D);
+                            
+                        }
+                        else {
+                            gameWorld2.Render(bufG2D);
+                            ui.drawPrincess(bufG2D);
+                        }
                         ui.drawPauseGame(bufG2D);
                         
                         break;
@@ -153,8 +183,26 @@ public class GamePanel extends JPanel implements Runnable, KeyListener{
                         
                         break;
                     case GAMEOVER:
+                        if(worldtype==1) {
+                            gameWorld.Render(bufG2D);
+                            
+                        }
+                        else {
+                            gameWorld2.Render(bufG2D);
+                            ui.drawPrincess(bufG2D);
+                        }
+                        ui.drawGameOver(bufG2D);
                         break;
                     case GAMEWIN:
+                        if(worldtype==1) {
+                            gameWorld.Render(bufG2D);
+                            
+                        }
+                        else {
+                            gameWorld2.Render(bufG2D);
+                            ui.drawPrincess(bufG2D);
+                        }
+                        ui.drawGameWin(bufG2D);
                         break;
                 }
                 

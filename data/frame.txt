@@ -1,4 +1,33 @@
-458
+462
+
+princess1
+image data/princess.png
+x 0
+y 0
+w 32
+h 32
+
+princess2
+image data/princess.png
+x 32
+y 0
+w 32
+h 32
+
+
+princess3
+image data/princess.png
+x 64
+y 0
+w 32
+h 32
+
+princess4
+image data/princess.png
+x 96
+y 0
+w 32
+h 32
 
 stone_ammo1
 image data/stone_ammo.png
