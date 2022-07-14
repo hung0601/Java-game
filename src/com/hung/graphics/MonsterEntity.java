@@ -236,7 +236,7 @@ public class MonsterEntity extends GraphicsEntity{
         }
         
         //creature.drawBoundForCollisionWithMap(g2);
-        creature.drawBoundForCollisionWithEnemy(g2);
+//        creature.drawBoundForCollisionWithEnemy(g2);
     }
 
     @Override

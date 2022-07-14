@@ -20,14 +20,18 @@ public class Strawberry extends Item{
             BufferedImage temImage = ImageIO.read(new  File("Data/Item.png"));
             this.image = temImage.getSubimage(128, 448, 32, 32);
             frame = new FrameImage("Strawberry", image);
-              des = frame.getName() + ": Increase 3 ATK";
+              des = frame.getName() + ": Increase 8 ATK";
               this.name="Strawberry";
+              id = 11;
+              coin = 15;
         } catch (Exception e) {
                }
      }
     @Override
     public void UseItem(Knight knight){
          //Increase 3 ATK
+          //Increase 3 ATK
+         knight.setDamage(knight.getDamage()+8);
     }
 
    

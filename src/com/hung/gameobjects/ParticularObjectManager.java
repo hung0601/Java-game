@@ -81,6 +81,8 @@ public class ParticularObjectManager {
                 
                 if(object.getState() == ParticularObject.DEATH){
                     particularObjects.remove(id);
+                    gameWorld.knightEntity.getKnight().setCoin(gameWorld.knightEntity.getKnight().getCoin() + 10);
+                    gameWorld.sMessage.addMessage("+10 Coint");
                 }
             }
         }

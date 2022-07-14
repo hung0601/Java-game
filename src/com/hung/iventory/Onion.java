@@ -23,12 +23,15 @@ public class Onion extends Item{
             frame = new FrameImage("Onion", image);
               des = frame.getName() + ": Increase 1 DEF";
               this.name="Onion";
+              coin = 2;
+              id = 9;
         } catch (Exception e) {
                }
      }
     @Override
     public void UseItem(Knight knight){
          //Increase 1 DEF
+         knight.setDefense(knight.getDefense()+1);
     }
 
     

@@ -23,6 +23,8 @@ public class Defend extends Item{
             frame = new FrameImage("Defend", image);
              des = frame.getName() + ": Increas 10 DEF";
              this.name="Degend Drug";
+             coin = 75;
+             id = 5;
         } catch (Exception e) {
                }
      }
@@ -30,6 +32,7 @@ public class Defend extends Item{
     @Override
     public void UseItem(Knight knight){
          //Increas 10 DEF
+         knight.setDefense(knight.getDefense()+10);
     }
 
     

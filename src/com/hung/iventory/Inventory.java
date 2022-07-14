@@ -26,17 +26,36 @@ public class Inventory {
       this.knight=knight;
     }
     public void setItems(){
-//        items.add(new Healing());
-//        items.add(new Defend());
-//        items.add(new Speed());
-//        items.add(new Banana());
-//        items.add(new Apple());
-//        items.add(new Pear());
-//        items.add(new Strawberry());
-//        items.add(new Grape());
-//        items.add(new Carrot());
-//        items.add(new Onion());
-//        items.add(new Corn());
+        items.add(new Healing(0, 0));
+        items.add(new Healing(0, 0));
+        items.add(new Defend(0, 0));
+        items.add(new Defend(0, 0));
+        items.add(new Defend(0, 0));
+        items.add(new Speed(0,0));
+        items.add(new Speed(0,0));
+        items.add(new Speed(0,0));
+        items.add(new Banana(0,0));
+        items.add(new Banana(0,0));
+        items.add(new Banana(0,0));
+        items.add(new Apple(0,0));
+        items.add(new Pear(0,0));
+        items.add(new Pear(0,0));
+        items.add(new Strawberry(0,0));
+        items.add(new Grape(0,0));
+        items.add(new Carrot(0,0));
+        items.add(new Onion(0,0));
+        items.add(new Onion(0,0));
+        items.add(new Onion(0,0));
+        items.add(new Corn(0,0));
+        items.add(new Egg(0, 0));
+        items.add(new Egg(0, 0));
+        items.add(new Egg(0, 0));
+        items.add(new Strawberry(0, 0));
+        items.add(new Strawberry(0, 0));
+        items.add(new Strawberry(0, 0));
+        items.add(new Diamond(0, 0)); 
+        items.add(new Gold(0, 0)); 
+        items.add(new Mushroom(0, 0)); 
         currentSlot = items.size()-1;
     }
     

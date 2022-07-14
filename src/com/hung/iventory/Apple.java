@@ -23,6 +23,8 @@ public class Apple extends Item{
             frame = new FrameImage("Apple", image);
             des = frame.getName() + ": Heal 5 HP";
             this.name="Apple";
+            coin = 20;
+            id = 1;
         } catch (Exception e) {
                }       
      }

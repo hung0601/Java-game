@@ -23,12 +23,16 @@ public class Pear extends Item{
             frame = new FrameImage("Pear", image);
              des = frame.getName() + ": Heal 10 HP";
              this.name="Pear";
+             coin = 50;
+             id = 10;
         } catch (Exception e) {
                }     
      }
     @Override
     public void UseItem(Knight knight){
          //Heal 10 HP
+         if(knight.getBlood()+5>100) knight.setBlood(100);
+        else  knight.setBlood(knight.getBlood()+10);
     }
 
     

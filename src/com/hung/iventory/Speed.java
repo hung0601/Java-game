@@ -24,6 +24,8 @@ public class Speed extends Item{
             frame = new FrameImage("Acceleration ", image);
             des = frame.getName() + ": Increase Speed";
             this.name="Speed Drug";
+            id = 12;
+            coin = 75;
         } catch (Exception e) { 
     }
     }

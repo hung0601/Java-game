@@ -24,12 +24,16 @@ public class Healing extends  Item{
             frame = new FrameImage("Small Potions", image);
             des = frame.getName() + ": Heal 15 HP";
             this.name="Healing Drug";
+            coin = 75;
+            id = 8;
         } catch (Exception e) {
     }
     }
     @Override
     public void UseItem(Knight knight){
          //Heal 15 HP
+         if(knight.getBlood()+15>100) knight.setBlood(100);
+        else  knight.setBlood(knight.getBlood()+15);
     }
 
     

@@ -22,7 +22,24 @@ public abstract class Item {
     protected String des = " ";
     protected String name = " ";
     protected BufferedImage image;
+    protected int coin;
+    protected int id;
 
+    public int getCoin() {
+        return coin;
+    }
+
+    public void setCoin(int coin) {
+        this.coin = coin;
+    }
+
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
+    }
     
     
     private float posX;

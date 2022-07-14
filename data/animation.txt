@@ -1,4 +1,7 @@
-81
+82
+
+npc
+npc1 100000000 npc2 100000000 npc3 100000000 npc4 100000000 npc5 100000000
 
 princess
 princess1 100000000 princess2 100000000 princess3 100000000 princess4 100000000
@@ -200,16 +203,16 @@ hurt_right
 hurt_right1 150000000 hurt_right2 150000000 hurt_right3 150000000 hurt_right4 150000000
 
 ske_attack_left
-ske_attack_left1 100000000 ske_attack_left2 100000000 ske_attack_left3 100000000 ske_attack_left4 150000000 ske_attack_left5 150000000 ske_attack_left6 150000000 ske_attack_left7 150000000 ske_attack_left8 150000000
+ske_attack_left6 100000000 ske_attack_left7 150000000 ske_attack_left8 150000000
 
 ske_attack_right
-ske_attack_right1 100000000 ske_attack_right2 100000000 ske_attack_right3 100000000 ske_attack_right4 150000000 ske_attack_right5 150000000 ske_attack_right6 150000000 ske_attack_right7 150000000 ske_attack_right8 150000000
+ske_attack_right6 100000000 ske_attack_right7 150000000 ske_attack_right8 150000000
 
 ske_attack_down
-ske_attack_down1 100000000 ske_attack_down2 100000000 ske_attack_down3 100000000 ske_attack_down4 150000000 ske_attack_down5 150000000 ske_attack_down6 150000000 ske_attack_down7 150000000 ske_attack_down8 150000000
+ske_attack_down6 100000000 ske_attack_down7 150000000 ske_attack_down8 150000000
 
 ske_attack_up
-ske_attack_up1 100000000 ske_attack_up2 100000000 ske_attack_up3 100000000 ske_attack_up4 150000000 ske_attack_up5 150000000 ske_attack_up6 150000000 ske_attack_up7 150000000 ske_attack_up8 150000000
+ske_attack_up6 100000000 ske_attack_up7 150000000 ske_attack_up8 150000000
 
 
 ske_idle_up

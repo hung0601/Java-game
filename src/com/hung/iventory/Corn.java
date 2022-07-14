@@ -23,12 +23,15 @@ public class Corn extends Item{
             frame = new FrameImage("Corn", image);
               des = frame.getName() + ": Increase 7 DEF";
               this.name="Corn";
+              coin = 25;
+              id = 4;
         } catch (Exception e) {
                }
      }
     @Override
     public void UseItem(Knight knight){
          //Increase 7DEF
+         knight.setDefense(knight.getDefense()+7);
     }
 
     

@@ -23,6 +23,8 @@ public class Carrot extends Item{
             frame = new FrameImage("Carot", image);
             des = frame.getName() + ": Heal 7 HP";
             this.name="Carrot";
+            coin = 20;
+            id = 3;
         } catch (Exception e) {
                }       
      }
@@ -30,6 +32,8 @@ public class Carrot extends Item{
     @Override
     public void UseItem(Knight knight){
          //Heal 7 HP
+        if(knight.getBlood()+7>100) knight.setBlood(100);
+        else  knight.setBlood(knight.getBlood()+7);
     }
 
    

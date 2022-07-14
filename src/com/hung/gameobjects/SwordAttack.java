@@ -47,6 +47,7 @@ public class SwordAttack extends Skill{
             setBlood(0);
             object.beHurt(getDamage());
             System.out.println("Bullet set behurt for enemy");
+            if(object.getDefense()==0) getGameWorld().knightEntity.getKnight().increaseMana(30);
         }
         }
     }

@@ -7,7 +7,9 @@ package com.hung.gameobjects;
 import com.hung.state.GameWorld;
 import com.hung.effect.Animation;
 import com.hung.effect.CacheDataLoader;
+import com.hung.iventory.Craft;
 import com.hung.iventory.Inventory;
+import com.hung.iventory.Shop;
 import java.applet.AudioClip;
 import java.awt.Graphics2D;
 import java.awt.Rectangle;
@@ -20,7 +22,32 @@ public class Knight extends Creature {
 
     public static final int RUNSPEED = 3;
     private Inventory invent;
+    private Craft craft;
+    public Shop shop;
+    private int coin;
 
+    public int getCoin() {
+        return coin;
+    }
+
+    public void setCoin(int coin) {
+        this.coin = coin;
+    }
+    public Craft getCraft() {
+        return craft;
+    }
+
+    public void setCraft(Craft craft) {
+        this.craft = craft;
+    }
+
+    public boolean isIsAttacking2() {
+        return isAttacking2;
+    }
+
+    public void setIsAttacking2(boolean isAttacking2) {
+        this.isAttacking2 = isAttacking2;
+    }
     public boolean isAttacking2=false;
 
     public Knight(float x, float y, GameWorld gameWorld) {
@@ -32,9 +59,11 @@ public class Knight extends Creature {
         setTeamType(LEAGUE_TEAM);
         setTimeForBeHurt(2000000); 
         invent= new Inventory(getGameWorld().inventManager,this);
+        craft = new Craft(getGameWorld().inventManager, this);
+        shop = new Shop(getGameWorld().shopManager, this);
         setDamage(5);
-
-     
+        coin = 500;
+        setMana(MAXMANA);
         
     }
     
@@ -46,7 +75,12 @@ public class Knight extends Creature {
         this.invent = invent;
     }
     
+    public void increaseMana(int increase){
+        int i= getMana()+increase;
+        if(i>MAXMANA) setMana(MAXMANA);
+        else setMana(i);
     
+    }
     @Override
     public void Update() {
         super.Update();
@@ -91,7 +125,6 @@ public class Knight extends Creature {
         
     }
 
-   
     @Override
     public void stopRun() {
         setSpeedX(0);
@@ -135,9 +168,10 @@ public class Knight extends Creature {
     }
     
     
-    public void attack2() {
+   public void attack2() {
     
-        if(!isAttacking && !isAttacking2){
+        if(!isAttacking && !isAttacking2 && getMana()>=15){
+            setMana(getMana()-15);
             stopRun();
             if(getDirection()==UP_DIR || getDirection()==DOWN_DIR){
                 Skill skill = new StabSword(getPosX(), getPosY(), getGameWorld(),DOWN_DIR,getDamage());

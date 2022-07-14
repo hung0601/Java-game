@@ -84,7 +84,7 @@ public class StabSword extends Skill{
 
     @Override
     public void draw(Graphics2D g2) {
-        drawBoundForCollisionWithEnemy(g2);
+//        drawBoundForCollisionWithEnemy(g2);
         if((System.nanoTime()-getBeginTime())/1000>650000){
         switch(direction){
             case DOWN_DIR:

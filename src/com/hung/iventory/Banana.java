@@ -21,16 +21,18 @@ public class Banana extends Item{
                BufferedImage temImage = ImageIO.read(new  File("Data/Item.png"));
                this.image = temImage.getSubimage(32, 448, 32, 32);
                frame = new FrameImage("Banana", image);
-                des = frame.getName() + ": Increase 5 ATK";
+                des = frame.getName() + ": Increase 3 ATK";
                 this.name="Banana";
+                coin = 20;
+                id = 2;
                 } catch (Exception e) {
                 }        
              }
           
           @Override
     public void UseItem(Knight knight){
-         //Increase 5 ATK
-         knight.setDamage(knight.getDamage()+5);
+         //Increase 3 ATK
+         knight.setDamage(knight.getDamage()+3);
     }
 
    

@@ -1,4 +1,40 @@
-462
+467
+
+npc1
+image data/npc.png
+x 0
+y 0
+w 48
+h 48
+
+npc2
+image data/npc.png
+x 48
+y 0
+w 48
+h 48
+
+
+npc3
+image data/npc.png
+x 96
+y 0
+w 48
+h 48
+
+npc4
+image data/npc.png
+x 144
+y 0
+w 48
+h 48
+
+npc5
+image data/npc.png
+x 192
+y 0
+w 48
+h 48
 
 princess1
 image data/princess.png

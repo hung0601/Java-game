@@ -81,7 +81,12 @@ public class InputManger {
                         
                         if(gameWorld.inventManager.slotRow!=0)gameWorld.inventManager.slotRow--;
                         
-                    }else if (!knight.isAttacking){
+                    }else 
+                        if(gameWorld.isShop){
+                        if(gameWorld.shopManager.slotRow!=0) gameWorld.shopManager.slotRow--;
+                        }
+                    else
+                        if (!knight.isAttacking){
                         knight.setDirection(Knight.UP_DIR);
 			knight.run();
                         
@@ -91,7 +96,12 @@ public class InputManger {
                     if(gameWorld.isInventOpen){
                         if(gameWorld.inventManager.slotRow!=8) gameWorld.inventManager.slotRow++;
                         
-                    }else if (!knight.isAttacking){
+                    }else 
+                        if(gameWorld.isShop){
+                        if(gameWorld.shopManager.slotRow!=8) gameWorld.shopManager.slotRow++;
+                        }
+                    else
+                        if (!knight.isAttacking){
                         knight.setDirection(Knight.DOWN_DIR);
 			knight.run();
                         
@@ -101,7 +111,12 @@ public class InputManger {
                     if(gameWorld.isInventOpen){
                         if(gameWorld.inventManager.slotCol!=0) gameWorld.inventManager.slotCol--;
                         
-                    }else if (!knight.isAttacking){
+                    }else 
+                        if(gameWorld.isShop){
+                        if(gameWorld.shopManager.slotCol!=0) gameWorld.shopManager.slotCol--;
+                        }
+                    else
+                        if (!knight.isAttacking){
                         knight.setDirection(Knight.LEFT_DIR);
 			knight.run();
                         
@@ -111,7 +126,12 @@ public class InputManger {
                     if(gameWorld.isInventOpen){
                         if(gameWorld.inventManager.slotCol!=10)gameWorld.inventManager.slotCol++;
                         
-                    }else if (!knight.isAttacking){
+                    }else
+                        if(gameWorld.isShop){
+                        if(gameWorld.shopManager.slotCol!=10) gameWorld.shopManager.slotCol++;
+                        }
+                    else
+                        if (!knight.isAttacking){
                         knight.setDirection(Knight.RIGHT_DIR);
 			knight.run();
                         
@@ -124,9 +144,39 @@ public class InputManger {
                         System.out.println(knight.getInvent().items.get(itemIndex).getDes());
                          knight.getInvent().UseItem(itemIndex);
                         }
-                    }      
-            
+                    } else if(gameWorld.isShop){
+                        int itemIndex = gameWorld.shopManager.getItemIndexOnSlot();
+                        if(itemIndex < knight.shop.items.size()){
+                        System.out.println(knight.getInvent().items.get(itemIndex).getDes());
+                         knight.shop.Buy(itemIndex, knight.getInvent());
+                        }
+                    }                  
 			break;
+                case KeyEvent.VK_E:
+                    if(gameWorld.isInventOpen && !gameWorld.inventManager.in.isEmpty()){
+                        if(knight.getCraft().items.size() < 4){
+                        int itemIndex = gameWorld.inventManager.getItemIndexOnSlot();
+                        knight.getCraft().MoveTocraft(knight.getInvent(), itemIndex);
+                        }
+                        else{
+                          knight.getCraft().CompleCraft(knight.getInvent());
+                        }
+                    }  
+			break;
+                case KeyEvent.VK_Q:
+                    if(gameWorld.isInventOpen){
+                        knight.getCraft().Undo(knight.getInvent());
+                    }  
+			break;
+                case KeyEvent.VK_V:
+                    if(gp.isInExchangeArea()){
+                        System.out.println("Exchange");
+                        if(gameWorld.isShop)
+                        gameWorld.isShop=false;
+                    else if(!gameWorld.isInventOpen) 
+                        gameWorld.isShop=true;
+                    }
+                        break;
 		case KeyEvent.VK_ESCAPE:
                         gp.gameState=gp.PAUSE;
                         knight.stopRun();
@@ -140,7 +190,15 @@ public class InputManger {
                 case KeyEvent.VK_I:
                     if(gameWorld.isInventOpen)
                         gameWorld.isInventOpen=false;
-                    else gameWorld.isInventOpen=true;
+                    else 
+                         if(!gameWorld.isShop) 
+                        gameWorld.isInventOpen=true;
+			break;
+                case KeyEvent.VK_P:
+                    if(gameWorld.isShop)
+                        gameWorld.isShop=false;
+                    else if(!gameWorld.isInventOpen) 
+                        gameWorld.isShop=true;
 			break;
 		}
             return;

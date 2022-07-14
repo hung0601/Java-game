@@ -26,6 +26,7 @@ public class UI {
     Graphics g2;
     public int commandNum=0;
     Animation princess = CacheDataLoader.getInstance().getAnimation("princess");
+    Animation npc = CacheDataLoader.getInstance().getAnimation("npc");
     public UI(GamePanel gp){
         this.gp=gp;
     }
@@ -85,6 +86,15 @@ public class UI {
         this.g2=g2;
         princess.Update(System.nanoTime());
         princess.draw((int) ( 1792- gp.gameWorld2.camera.getPosX()),960 - (int) gp.gameWorld2.camera.getPosY(), g2);
+                              
+    
+    }
+    
+    public void drawNPC(Graphics2D g2){
+        if(gp.gameWorld == null) return;;
+        this.g2=g2;
+        npc.Update(System.nanoTime());
+        npc.draw((int) ( 1184- gp.gameWorld.camera.getPosX()),832 - (int) gp.gameWorld.camera.getPosY(), g2);
                               
     
     }
@@ -202,6 +212,18 @@ public class UI {
         g2.drawString(text, x, y);
         
         }
+
+    void drawMessage(Graphics2D g2) {
+        this.g2=g2;
+         g2.setColor(Color.white);
+         g2.setFont(g2.getFont().deriveFont(Font.BOLD,25F));
+        
+       
+        String text = "Press V to exchange";
+        if(gp.worldtype==1) g2.drawString(text, 1130- (int)gp.gameWorld.camera.getPosX(),750 - (int) gp.gameWorld.camera.getPosY());
+        else g2.drawString(text,1184- gp.gameWorld2.camera.getPosX(),832 - (int) gp.gameWorld2.camera.getPosY());;
+        
+     }
     
     
     

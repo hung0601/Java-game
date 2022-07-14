@@ -51,6 +51,8 @@ public class GamePanel extends JPanel implements Runnable, KeyListener{
         
         public  UI ui;
         
+        
+        
     
         
 	
@@ -66,6 +68,9 @@ public class GamePanel extends JPanel implements Runnable, KeyListener{
             worldtype =1;
             gameWorld= new GameWorld(PhysicalMap.MAP2);
             gameWorld2= new GameWorld(PhysicalMap.MAP1);
+            
+            gameWorld.initEnemyMap1();
+            gameWorld2.initEnemyMap2();
             inputManger=new InputManger(gameWorld,this);
         }
         
@@ -77,6 +82,10 @@ public class GamePanel extends JPanel implements Runnable, KeyListener{
             gameWorld2.knightEntity.getKnight().setPosX(640);
             gameWorld2.knightEntity.getKnight().setPosY(224);
             gameWorld2.knightEntity.getKnight().setBlood(gameWorld.knightEntity.getKnight().getBlood());
+            gameWorld2.knightEntity.getKnight().setDamage(gameWorld.knightEntity.getKnight().getDamage());
+            gameWorld2.knightEntity.getKnight().setDefense(gameWorld.knightEntity.getKnight().getDefense());
+            gameWorld2.knightEntity.getKnight().setCoin(gameWorld.knightEntity.getKnight().getCoin());   
+            gameWorld2.knightEntity.getKnight().setMana(gameWorld.knightEntity.getKnight().getMana());
             gameWorld2.knightEntity.getKnight().setDirection(gameWorld.knightEntity.getKnight().getDirection());
             gameWorld2.knightEntity.getKnight().setInvent(gameWorld.knightEntity.getKnight().getInvent());
             gameWorld2.inventManager.in=gameWorld.knightEntity.getKnight().getInvent();
@@ -92,6 +101,10 @@ public class GamePanel extends JPanel implements Runnable, KeyListener{
             gameWorld.knightEntity.getKnight().setPosX(1088);
             gameWorld.knightEntity.getKnight().setPosY(1152);
             gameWorld.knightEntity.getKnight().setBlood(gameWorld2.knightEntity.getKnight().getBlood());
+            gameWorld.knightEntity.getKnight().setDamage(gameWorld2.knightEntity.getKnight().getDamage());
+            gameWorld.knightEntity.getKnight().setDefense(gameWorld2.knightEntity.getKnight().getDefense());
+            gameWorld.knightEntity.getKnight().setCoin(gameWorld2.knightEntity.getKnight().getCoin());   
+            gameWorld.knightEntity.getKnight().setMana(gameWorld2.knightEntity.getKnight().getMana());
             gameWorld.knightEntity.getKnight().setDirection(gameWorld2.knightEntity.getKnight().getDirection());
             
             gameWorld.knightEntity.getKnight().setInvent(gameWorld2.knightEntity.getKnight().getInvent());
@@ -123,6 +136,12 @@ public class GamePanel extends JPanel implements Runnable, KeyListener{
                    && gameWorld2.knightEntity.getKnight().getPosX()<768  ) return true;
             else return false;
         
+        }
+        
+        
+        public boolean isInExchangeArea(){
+            if(getKnight().getPosX()>1120 && getKnight().getPosX()<1248 && getKnight().getPosY()>768 && getKnight().getPosY()<896) return true;
+            else return false;
         }
         
 	@Override
@@ -158,6 +177,12 @@ public class GamePanel extends JPanel implements Runnable, KeyListener{
                     case PLAY: 
                         if(worldtype==1) {
                             gameWorld.Render(bufG2D);
+                            ui.drawNPC(bufG2D);
+                            if(getKnight().getPosX()>1120 && getKnight().getPosX()<1248 && getKnight().getPosY()>768 && getKnight().getPosY()<896){
+                                 ui.drawMessage(bufG2D);
+                                 
+                            }
+            
                             
                         }
                         else {
@@ -169,6 +194,8 @@ public class GamePanel extends JPanel implements Runnable, KeyListener{
                     case PAUSE:
                         if(worldtype==1) {
                             gameWorld.Render(bufG2D);
+                            ui.drawNPC(bufG2D);
+                            
                             
                         }
                         else {
@@ -185,6 +212,7 @@ public class GamePanel extends JPanel implements Runnable, KeyListener{
                     case GAMEOVER:
                         if(worldtype==1) {
                             gameWorld.Render(bufG2D);
+                            ui.drawNPC(bufG2D);
                             
                         }
                         else {
@@ -196,6 +224,7 @@ public class GamePanel extends JPanel implements Runnable, KeyListener{
                     case GAMEWIN:
                         if(worldtype==1) {
                             gameWorld.Render(bufG2D);
+                            ui.drawNPC(bufG2D);
                             
                         }
                         else {

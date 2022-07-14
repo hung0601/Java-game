@@ -30,6 +30,7 @@ public abstract class ParticularObject extends GameObject{
     public static final int DEATH = 3;
     
     private int state = ALIVE;
+    public static final int MAXMANA = 100;
     
     private float width;
     private float height;
@@ -39,6 +40,7 @@ public abstract class ParticularObject extends GameObject{
     
     private int damage;
     private int defense=0;
+    private int mana=0;
 
     
     
@@ -68,6 +70,14 @@ public abstract class ParticularObject extends GameObject{
 
     }
     
+    
+    public int getMana() {
+        return mana;
+    }
+
+    public void setMana(int mana) {
+        this.mana = mana;
+    }
     public long getStartBeHurtTime() {
         return startBeHurtTime;
     }
