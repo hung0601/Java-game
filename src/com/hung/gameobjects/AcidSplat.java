@@ -46,8 +46,8 @@ public class AcidSplat extends Skill{
     public void Update() {
             // TODO Auto-generated method stub
             
-         setWidth(getWidth()+getSpeedX());
-         setHeight(getHeight()+getSpeedY());
+        setWidth(getWidth()+getSpeedX());
+        setHeight(getHeight()+getSpeedY());
         if(isRemain()){
         ParticularObject object = getGameWorld().particularObjectManager.getCollisionWidthEnemyObject(this);
         if(object!=null && object.getState() == ALIVE){
@@ -60,10 +60,9 @@ public class AcidSplat extends Skill{
 
     @Override
     public void draw(Graphics2D g2) {
-        drawBoundForCollisionWithEnemy(g2);
+        //drawBoundForCollisionWithEnemy(g2);
         exploy.Update(System.nanoTime());
-        exploy.draw((int) (getPosX() - getGameWorld().camera.getPosX()), (int) getPosY() - (int) getGameWorld().camera.getPosY(), g2);
-              
+        exploy.draw((int) (getPosX() - getGameWorld().camera.getPosX()), (int) getPosY() - (int) getGameWorld().camera.getPosY(), g2); 
     }
 
     @Override
